@@ -1,0 +1,150 @@
+name: "SQL Saturday Denver 2022"
+eventnumber: 1034
+primarytag: "Denver"
+logo: 
+logocredit: 
+date: 2022-09-17 08:00:00 -0000
+virtual: false
+physical: true
+hybrid: false
+description: | 
+    <p>SQL Saturday Denver 2022 is a free one day training event Making all your SQL and Azure dreams come true for IT professionals and students interested in the Microsoft data platform (SQL Server, PowerBI, SSIS, and much more).
+     Free registration is required, you can opt-in for lunch or bring your own, whatever works for you!</p>
+
+eventlocation: |
+  Cherry Creek Presbyterian Church<br/>
+  10150 E Belleview Ave<br/>
+  Greenwood Village, CO 80111
+
+eventlocationurl: 
+
+officialwebsite: 
+registrationurl: https://www.eventbrite.com/e/denver-sql-saturday-2022-tickets-387063225527
+capacity: 120
+googlemapurl: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12292.727884146352!2d-104.8709873!3d39.6231064!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb4d91c23cbdf072!2sCherry%20Creek%20Presbyterian%20Church!5e0!3m2!1sen!2sus!4v1657118639376!5m2!1sen!2sus"
+
+scheduleurl: https://sessionize.com/api/v2/g8pgq4wb/view/GridSmart
+scheduletimezone: Mountain Daylight Savings time UTC -6
+
+eventcountdown: false
+
+countdownscript:
+ 
+speakertext: The call for speakers will close on August 14, 2022 and we plan to announce the final schedule within two weeks after that date.
+speakerlisturl: https://sessionize.com/api/v2/g8pgq4wb/view/Speakers
+callforspeakersurl: https://sessionize.com/denver-sql-saturday-2022/
+callforspeakers: true
+callforspeakersenddate: 14 Aug 2022
+
+downloads:
+  - name: "Speaker Powerpoint template"
+    url: "Denver2022Template.pptx"
+
+organizers:
+  - name: Denver SQL Users Group
+    twitter: denversql 
+    email: board@denversql.org
+    url: https://denversql.org/
+
+volunteers:
+  description: "Volunteers are very important to a successful event. Please contact the organizer to volunteer."
+  volunteerurl:
+
+social:
+  twitter: denversql
+  youtube: 
+  linkedin: 
+  instagram: 
+  tiktok: 
+  pinterest: 
+
+sponsorscontacturl: 
+sponsors:
+  - link: https://www.microsoft.com
+    type: Platinum
+    image: /assets/img/logos/Microsoft-logo_rgb_c-gray.png
+    width: 1264
+    height: 340
+  - link: https://www.datavail.com
+    type: Summit
+    image: /assets/img/logos/datavail_logo_gold.png
+    width: 566
+    height: 130
+  - link: http://www.bridgeworkscg.com/
+    type: Summit
+    image: /assets/img/logos/bridgeworks_gold.png
+    width: 250
+    height: 187
+  - link: https://www.solarwinds.com/ 
+    type: Summit
+    image: /assets/img/logos/Solarwinds_gold.png
+    width: 524
+    height: 190
+  - link: https://www.quest.com/
+    type: Summit
+    image: /assets/img/logos/Quest-logo-800px.jpg   
+    width: 800
+    height: 220
+  - link: https://www.red-gate.com/
+    type: Summit
+    image: /assets/img/logos/RedGate.png
+    width: 318
+    height: 77
+  - link: https://sqlgrease.com/
+    type: Cairn
+    image: /assets/img/logos/sqlgrease_bronze.png
+    width: 337
+    height: 87
+  - link: https://www.oreilly.com/
+    type: General
+    image: /assets/img/logos/oreilly-115x20.jpg
+    width: 115
+    height: 20
+  - link: https://www.edgewoodsolutions.com/
+    type: General
+    image: /assets/img/logos/mssqltips_logo_208_119.png
+    width: 208
+    height: 119
+  - link: https://sdiweb.z13.web.core.windows.net/
+    type: general
+    image: /assets/img/logos/SDI_logo.png
+  - link: https://www.linkedin.com/company/thedatafactor/
+    type: General
+    image: /assets/img/logos/the_data_factor_logo.jpg
+    
+
+
+sponsorplan: |
+    <h1><a name="sponsorship">Sponsorship Plan</a></h1>
+    <p>SQL Saturday Denver 2022 will be held on the campus of Cherry Creek Presbyterian Church September 17th, 2022. This year we plan to deliver five tracks with each having five one hour presentations, plus three sponsor presentations at lunch and a final end of day gathering for giving away prizes. Our pre-pandemic attendance was in the range of 250-300, but based on other, more recent, events we are forecasting 125-150 attendees at this year’s event.</p>
+    <h2>Sponsorship Levels</h2>
+    <p>All sponsors will be listed on our SQLSaturday event page and announced to attendees during the event. All sponsorship fees must be paid in advance of the event. Attendees receive a raffle ticket for each sponsor at the Silver or higher level. We encourage sponsors to bring one or more prizes valued at $100 or more and display these prominently at your table. Raffle tickets will have a QR code that contains attendee info and we recommend purchasing a <a href="https://www.amazon.com/gp/product/B07D799ZDD/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1">2D compatible scanner</a> as they are much faster than using a phone. If you want to discuss an option or idea not listed below, please contact us, we will do our best to work with you!</p>
+    <ul>
+      <li><b>Cairn ($250)</b>. Leave your Mark! For companies who want to support our event or engage in brand building. We’ll include your logo on our event pages and let all our attendees know how much we appreciate your support! <a href="https://py.pl/JzVI8">Sign up to be a Cairn Sponsor</a>!</li>
+      <li><b>Crest ($750)</b>. Make an impact even if you can’t attend. For Sponsors who are not able to attend in person but want to support our event and build brand awareness. We will set up a raffle box for you if you provide a prize (gift cards are easy, but it’s up to you!) and will forward you the scans of the tickets via email after the event. <a href="https://py.pl/19sR1u">Sign up to be a Crest Sponsor</a>!</li>
+      <li><b>Summit ($1250)</b>. Reach for the top! The ideal Sponsor level for those that want to maximize interaction with attendees and promote brand awareness. Includes all Crest Sponsorship benefits as well as a table and two chairs in the Exhibitor area. <a href="https://py.pl/26JUMc">Sign up to be a Summit Sponsor</a>!</li>
+    </ul>
+    <h2>Add-On Sponsorship Options</h2>
+    <p>The following add-on options are available. Must be bundled with a sponsorship above. Please contact us (board@denversql.org) if you want to sign up for one of these or discuss in more detail and we’ll send you a payment link.</p>
+    <ul>
+      <li>Lanyards & Badge Holders ($250 + cost of the materials). You may provide lanyards and badge holders if you already have them.</li>
+      <li>Speaker shirts ($1750) our logo on the front, your logo on the sleeves.</li>
+      <li>Lunch Sessions with Sponsor Topic & Speaker ($750). We have three slots for lunch sessions available this year. Reserve your slot early!</li>
+      <li>Volunteer Party ($1000). We host an event for the speakers, sponsors, and main volunteers the Friday night prior to the event from 7-9 pm.</li>
+      <li>Breakfast ($1000). Coffee, donuts, and breakfast bars with your signage (you can even serve the donuts if you want!)</li>
+      <li>Afternoon Snack ($500). Snacks and beverages to keep everyone’s energy up.</li>
+      <li>After Party ($1000). This would run from 5-7 pm the day of the event at a nearby venue. A great opportunity to interact with attendees and volunteers in a casual, post-event environment.</li>
+    </ul>
+    <h2>Logistics</h2>
+    <ul>
+      <li> The event will be held at: Cherry Creek Presbyterian Church, 10150 E Belleview Ave, Englewood, CO 80111 </li>
+      <li>Parking is plentiful and free</li>
+      <li>Wifi is available but we recommend you have a fallback plan if you rely it for demos</li>
+      <li>We will be setting up for the event beginning at 7 am and ask all sponsors to have their tables fully ready no later than 8 am.</li>
+      <li>Lodging is available throughout the DTC area. Search for your favorite brand near the event site: 10150 E Belleview Ave, Englewood, CO 80111</li>
+    </ul>
+    <h3>How many attendees are expected?</h3>
+    <p>Given that this is the first in person SQL Saturday in a couple of years we’re not entirely sure of attendance – it’s possible we’ll see some reluctance to attend large public events but we’re hearing a lot of pent-up interest in the other direction.  The event center has a published capacity limit of 120 but wouldn’t be surprised if we exceed that limit a bit.</p>
+    <h3>Is there a specific theme or hot topics for presentation submissions?</h3>
+    <p>We’re hoping to have 3-4 learning tracks, though speaker submissions will define groupings, likely including these topics among others: BI/Data Analytics, Performance Tuning, AI/ML, All things Azure, Power BI, etc.  Attendees tend to have a wide range of interests so we try to cast as big a net as possible in terms of topics.</p>
+

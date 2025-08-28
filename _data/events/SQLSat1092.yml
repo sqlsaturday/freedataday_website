@@ -1,0 +1,144 @@
+name: "SQL Saturday San Diego 2024 (1092)" 
+primarytag: "San%20%Diego"
+logo: /assets/img/events/sandiego/sqlsatsd_logo.jpg
+logocredit: 
+date: 2024-09-14
+virtual: false
+physical: true
+hybrid: false
+description: |
+    <p>SQL Saturday SD is a FREE, 100% volunteer ran, training event for IT data professionals. This event offers high-quality technical training on a variety of data-related topics such as:<br/>
+    <ul>
+    <li>Data analytics,</li>
+    <li>SQL and No-SQL,</li>
+    <li>Database Administration,</li>
+    <li>DevOps,</li>
+    <li>Development,</li>
+    <li>Microsoft Azure,</li>
+    <li>Amazon Web Services,</li>
+    <li>Google Cloud Platform,</li>
+    <li>Databricks,</li>
+    <li>Data Science, and Machine Learning,</li>
+    <li>Business Intelligence and Analytics,</li>
+    <li>Women in Technology,</li>
+    <li>Personal Branding,</li>
+    </ul>
+    ...and more</p>
+    <p>This is a great opportunity for all data professionals or students to engage with their peers and learn from Microsoft MVPs and other local and international speakers, not to mention the great networking opportunities that this in-person event will offer. Don't forget to inform your friends and colleagues about the event!</p>
+
+officialwebsite: https://www.eventbrite.com/e/sql-saturday-san-diego-2024-tickets-920448966637
+eventlocation: | 
+  UC SAN DIEGO EXTENDED STUDIES<br/>
+  Universitv Citv Center<br/>
+  6256 Greenwich Drive, San Diego, CA 92122
+
+
+parkingdesc: |
+  <img src="/assets/img/events/sandiego/ucsdparking.png" alt="Parking Map" style="width: 100%; max-width: 800px;">
+
+precons: true
+precondetail: |
+  <h2>Tuning Databases in One Day by Brent Ozar</h2>
+  <p>You've got production databases in SQL Server or Azure SQL DB, and you want to make 'em faster. You need to identify the database's bottleneck, prove the root cause, and then recommend fixes. You want to make the right choice for each bottleneck - should you do index changes, query tuning, or server-level settings?<p>
+  <p>The class will be a mix of 50% slides, and 50% live demos, with plenty of time for Q&A. We'll even cover 3 sample client findings for the most common performance issues so you can see how I explain the issues to my own clients, and give them proof.</p>
+  <p><a href="https://www.eventbrite.com/cc/2024-events-3441089">Register today - Admission with Lunch - $149.00</a></p>
+  <p><b>Speaker Info</b></p>
+  <p>I'm Brent Ozar, and I do this for a living. In one day, I'll teach you the exact same techniques I use with my clients. I can't teach you everything about what I do in one day - but I'll teach you the most important stuff.</p>
+  <p><b>Additional Information</b></p>
+  <p>Friday, September 13, 9:00 AM - 5:00 PM PDT<br/>
+  6256 Greenwich Drive San Diego, CA 92122</br>
+  Lunch included and will be provided by Mendocino Farm</p>
+
+
+registrationurl: https://www.eventbrite.com/cc/2024-events-3441089
+capacity: 
+googlemapurl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3351.7078236658845!2d-117.18557162602754!3d32.85298688010263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc00984bff8355%3A0x1fa8e355414754f5!2sUC%20San%20Diego%20(UCSD)%20Extended%20Studies%20-%20University%20City%20Center!5e0!3m2!1sen!2suk!4v1717668684872!5m2!1sen!2suk"
+scheduleurl: https://sessionize.com/api/v2/ur5rl08z/view/GridSmart
+scheduletimezone: Pacific Daylight time UTC-8
+
+eventcountdown: false
+
+countdownscript:
+    
+speakertext: The call for speakers is open until Aug 30, 2024.
+speakerlisturl: https://sessionize.com/api/v2/ur5rl08z/view/SpeakerWall
+callforspeakersurl: https://sessionize.com/2024-data-sql-saturday-sd-sqlsatsd/
+callforspeakers:  true
+callforspeakersenddate: 30 Aug 2024
+
+organizers:
+  - name: Rebecca Renko Dycus
+    twitter: 
+    email: sqlsatsd@datadriventechnologies.org
+    url: https://linktr.ee/sqlsatsd
+
+volunteers:
+  description: "Volunteers are very important to a successful event. Please contact the organizers to volunteer."
+  volunteerurl: 
+
+social:
+  twitter: 
+  youtube: channel/UCQt5bivf1WETRFESJhpAeWg
+  linkedin: 
+  instagram: 
+  tiktok: 
+  meetup: https://www.meetup.com/sdsqlug/
+  pinterest: 
+  linktree: https://linktr.ee/sqlsatsd
+
+sponsorscontacturl: 
+sponsors:
+  - link: https://www.microsoft.com
+    type: Global
+    image: /assets/img/logos/Microsoft-logo_rgb_c-gray.png
+    width: 1264
+    height: 340
+  - link: https://www.vmware.com
+    type: Platinum sponsorship
+    image: /assets/img/logos/vmware_broadcomm.png
+    width: 944
+    height: 281
+  - link: https://www.cozyroc.com/
+    type: Silver sponsorship
+    image: /assets/img/logos/silver/cozyroc_silver.png
+    width: 410
+    height: 94  
+  - link: https://www.databricks.com
+    type: Silver sponsorship
+    image: /assets/img/logos/silver/databricks_silver.jpg
+    width: 480
+    height: 240
+  - link: https://www.datavail.com/
+    type: Silver sponsorship
+    image: /assets/img/logos/silver/datavail_silver.jpg
+    width: 375
+    height: 120
+  - link: https://www.jetbrains.com
+    type: ViK sponsorship
+    image: /assets/img/logos/vik/jetbrains_vik.png
+    width: 358
+    height: 77
+  - link: https://www.sqlskills.com
+    type: ViK sponsorship
+    image: /assets/img/logos/vik/sqlskills.jpg
+    width: 386
+    height: 384
+  - link:  https://www.oreilly.com
+    type: ViK sponsorship
+    image: /assets/img/logos/oreilly-115x20.jpg
+    width: 115
+    height: 20
+  - link: https://restaurants.subway.com/united-states/ca/san-diego
+    type: |
+      <p>ViK sponsorship<br/>
+      Subway - Store 51734<br/>
+      Khan<br/>
+      858-381-7085 (text)</p>
+
+    image: /assets/img/logos/vik/subway.jpg
+    width: 277
+    height: 180
+
+join:
+
+sponsorplan: <p>Please view our <a href="https://datadriventechnologies.org/2024/06/03/2024-sql-saturday-san-diego-calls-for-sponsors/">sponsorship plan options</a> and contact the organizers.</p>

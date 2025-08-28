@@ -1,0 +1,206 @@
+name: "SQL Saturday Jacksonville 2022"
+primarytag: "Jacksonville"
+logo: /assets/img/logos/JSSUGOriginal2x2inch.png
+logocredit: 
+date: 2022-05-14 08:00:00 -0000
+virtual: false
+physical: true
+hybrid: false
+description: |
+    <p>Jacksonville's 14th Annual SQL Saturday event includes two paid pre-con tracks and one FREE day of training sessions for Microsoft Data Platform professionals and those wanting to grow their skill set in Business Intelligence, Analytics, and SQL Server. This event is being hosted by Jacksonville SQL Server Users Group a 501c3 non-profit organization.</p>
+    <p>SQL Saturday is a training event for SQL Server and data professionals who want to learn how to elevate their careers to the next level. This is the 14th year of SQL Saturday in Jacksonville and will be held on May 14, 2022. Admittance to this event is free, all costs are covered by donations and sponsorship. Please register soon as seating is limited, and let friends and colleagues know about the event. SQL Saturday Jacksonville is hosted by Jacksonville SQL Server Users Group which is a 501c3 non profit organization.</p>
+    <p><b>Why Attend?</b> This is a great opportunity to learn from SQL Server Experts, Microsoft MVPs, SQL Server Authors, and Professionals who have been through and can relate to the obstacles you have day to day. This one day training event is unlike any other providing free food, training and networking.</p>
+    <p><a name="precon">Pre-Cons</a> will be held on Friday May 13th.</p>
+    
+    <a href="https://www.meetup.com/jaxssug/events/284815305"><h1>PreCon: Improving SQL Server Performance - Glenn Berry</h1></a>
+
+    <a href="https://www.meetup.com/jaxssug/events/284815305"><h3>Click Here To Register - https://www.meetup.com/jaxssug/events/284815305</h3></a>
+
+    <h3>Session Details:</h3>
+
+    <p>Has anyone ever told you that your SQL Server database or instance was running too fast? Probably not, but it is all too common to hear complaints about poor performance. As a database professional, you need to have the right tools and techniques for finding and correcting performance bottlenecks at all layers of your SQL Server instance. Starting with your hardware and storage, including virtualization, operating system considerations, instance-level configuration settings, database properties, and concluding with index and query tuning, we will cover all of the layers of common performance bottlenecks. You will learn detailed and practical information for improving SQL Server performance at every layer in the system.</p>
+    
+    <h3>Speaker:</h3>
+
+    <p>Glenn works as a Services Database Engineer for Koerber Supply Chain Software in Elizabeth, CO. He is a Microsoft Data Platform MVP. He is also an Adjunct Faculty member at University College - University of Denver, where has been teaching since 2000. He has completed the Master Teacher Program at Denver University - University College. He is the author of the book SQL Server Hardware. Glenn blogs regularly at https://glennsqlperformance.com. He is active on Twitter as @GlennAlanBerry.</p>
+
+    <h3>Special Notes:</h3>
+
+    <p>You will also be required to buy a pay-by-plate daily parking permit ($5) on the day of the event. You may do this online or at one of the kiosks located in the garage. Kiosk map and pay by plate instructions: <a href="https://bit.ly/3IASwg6" target="_blank">https://bit.ly/3IASwg6</a> - for a map: <a href="https://bit.ly/3qsPMLE" target="_blank">https://bit.ly/3qsPMLE</a></p>
+
+    <a href="https://www.meetup.com/jaxssug/events/284810111"><h1>PreCon: Azure Data Platform with Azure Synapse - Mitchell Pearson</h1></a>
+
+    <a href="https://www.meetup.com/jaxssug/events/284810111"><h3>Register Here - https://www.meetup.com/jaxssug/events/284810111</h3></a>
+
+    <h3>Session Details:</h3>
+
+    <p>Microsoft Azure is an ever-expanding set of cloud services to help your organization meet your business challenges, but where do you start? Transitioning from on-prem development to working in Azure can seem a daunting task. The workshop dives into an overview of the Azure architecture and quickly transitions into working with Azure Data Lake.</p>
+
+    <p>Next you learn how to provision Azure SQL DB, how to perform database migrations and how to properly scale up and scale down resources as necessary. Next, you will learn how to extract data, apply business rules and transformations and load data using pipelines and data flows. With Azure Logic Apps you will learn how to extend the capabilities of other resources in Azure and build automated workflows.</p>
+
+    <p>Finally, you will learn where SQL Pools, dedicated and serverless, and Azure Synapse Analytics fits into the larger picture of data and analytics in Microsoft Azure. Pre-requisites: A subscription to Microsoft Azure (Can be a free trial). Signup at <a href="https://azure.microsoft.com/en-us/free/" target="_blank">https://azure.microsoft.com/en-us/free/</a> Class Files: To be provided prior to workshop.</p>
+
+    <h3>Speaker:</h3>
+
+    <p>Mitchell Pearson has spent the last 9 years of his career with Pragmatic Works as a consultant and trainer and is currently the Training Manager. Mitchell has authored books on SQL Server, the Power Platform and Power BI. Mitchell teaches clients all over the world how to maximize their investment in Microsoft technologies like Azure, SQL server and Power BI. Mitchell is very active on YouTube and can be found posting new videos at www.YouTube.com/c/PragmaticWorks.</p>
+
+    <h3>Special Notes:</h3>
+
+    You will also be required to buy a pay-by-plate daily parking permit ($5) on the day of the event. You may do this online or at one of the kiosks located in the garage. Kiosk map and pay by plate instructions: <a href="https://bit.ly/3IASwg6" target="_blank">https://bit.ly/3IASwg6</a> - for a map: <a href="https://bit.ly/3qsPMLE" target="_blank">https://bit.ly/3qsPMLE</a></p>
+
+    <p>We will have a room set up for you to ask our SQL Experts for assistance with any current challenges you might be having. Look for this image posted at the door:<br/>
+    <img style="max-width: 50%;" src="/assets/img/logos/SQLRedCross.png"</p>
+
+    <p><b>Women In Technology Lunch Panel</b> - Women Thriving in the Technology Field - Lunch Session</p>
+
+eventlocation: |
+    University of North Florida (UNF)<br>
+    1 UNF Drive<br>
+    Jacksonville, Florida USA<br>
+    <br>
+    Sessions will be in Building 51 and Building 4.<br>
+    <br>
+    Parking in Garage 38 near the baseball fields. <br><br>
+
+eventlocationurl: https://maps.unf.edu/
+
+officialwebsite: www.jssug.org
+registrationurl: https://www.eventbrite.com/e/jacksonville-sql-saturday-1022-may-14th-2022-registration-266251022977?aff=SQLSaturdaycom
+capacity: 800
+googlemapurl: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3445.7643799449365!2d-81.5111779040169!3d30.272302057590043!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xccf210f6f48f2d0a!2sUniversity%20of%20North%20Florida!5e0!3m2!1sen!2sus!4v1647297378237!5m2!1sen!2sus
+precons: true
+scheduleurl: https://sessionize.com/api/v2/a5tzn844/view/GridSmart?format=Embed_Styled_Html&isDark=False&title=SQL%20Saturday%20Jacksonville%20%23102
+scheduletimezone: Eastern Daylight Savings time UTC -5
+lunchcost: $15 (optional)
+eventhotel: |
+  <p>The event hotel is the Hilton Tru. A discount link is here: <a href="https://bit.ly/35UtBqF">https://bit.ly/35UtBqF</a></p>
+  <p>You may place discounted reservations between 5/12/22 and 5/15/22 - All reservations must be booked before 4/12/22 for the discount.</p>
+
+
+eventcountdown: false
+
+countdownscript:
+ 
+speakertext: 
+speakerlisturl: https://sessionize.com/api/v2/a5tzn844/view/SpeakerWall
+callforspeakersurl: "https://sessionize.com/sqlsatjacksonville1022"
+callforspeakers: false
+callforspeakersenddate: 1 Apr 2022
+
+organizers:
+  - name: JSSUG (Jacksonville SQL Server Users Group)
+    twitter: jaxssug
+    email: "jeff@reviewmydb.com"
+    url: https://www.jssug.org/
+  - name: Jeff Taylor
+    twitter: reviewmydb
+    email: "jeff@reviewmydb.com"
+    url: https://blog.reviewmydb.com
+
+volunteers:
+  description: "Volunteers are very important to a successful event. Please contact the organizer to volunteer."
+  volunteerurl:
+
+social:
+  twitter: jaxssug
+  youtube: 
+  linkedin: https://www.linkedin.com/groups/2096387/
+  instagram: 
+  tiktok: 
+  pinterest: 
+
+sponsorscontacturl: 
+sponsors: 
+  - link: https://www.unf.edu/ccec/
+    image: /assets/img/logos/UNFLogo.jpg
+  - link: https://www.quest.com/
+    image: /assets/img/logos/Quest-logo-800px.jpg   
+  - link: https://www.heimdalldata.com/
+    image: /assets/img/logos/heimdall-logo-landscape-original-transparent.png
+  - link: https://tintri.com/sql
+    image: /assets/img/logos/tintri.png
+  - link: https://www.microsoft.com/
+    image: /assets/img/logos/Microsoft-logo_rgb_c-gray.png
+  - link: https://www.cozyroc.com
+    image: /assets/img/logos/cozyroc-big.png
+  - link: https://purestorage.com/
+    image: /assets/img/logos/Pure Storage Logo Full Color.PNG
+  - link: https://www.red-gate.com/
+    image: /assets/img/logos/RedGate.png
+  - link: https://octopus.com/
+    image: /assets/img/logos/OctopusDeploy-BOLDlogo-2lines-RGB.jpg
+  - link: https://www.fultonanalytics.com/
+    image: /assets/img/logos/FultonLogo_Greys.jpg
+  - link: https://onecallcm.com/
+    image: /assets/img/logos/Onecall_logo_cmyk.png
+  - link: https://procuresql.com/
+    image: /assets/img/logos/ProcureSQLlogosmall.jpg
+  - link: https://www.dbwatch.com/
+    image: /assets/img/logos/DBWatch.png
+  - link: https://www.sqlgrease.com/
+    image: /assets/img/logos/sqlgrease.png
+  - link: https://www.datavail.com/
+    image: /assets/img/logos/datavail-logo.png
+  - link: https://us.sios.com/
+    image: /assets/img/logos/sios_Medium.png
+  - link: https://www.snicompanies.com/
+    image: /assets/img/logos/SNITechnologylogo.jpg 
+  - link: https://pavilion.io/
+    image: /assets/img/logos/PavilionLOGO.png     
+  - link: https://www.idera.com/
+    image: /assets/img/logos/IDERA170x60.png
+  - link: https://www.edgewoodsolutions.com/
+    image: /assets/img/logos/mssqltips_logo_208_119.png
+  - link: https://www.oreilly.com/
+    image: /assets/img/logos/OReilly_Logo.png
+  - link: https://www.sqlgene.com/
+    image: /assets/img/logos/sqlgene.png
+
+sponsorplan: |
+    <h1>Sponsorship Opportunities</h1>
+    <p>SQL Saturday Jacksonville 2022 #1022 is a full day conference related to the technology of SQL Server and data. SQL Saturday is hosted by the Jacksonville SQL Server Users Group and is a 501c3 non-profit organization.</p>
+    <p>With the help of a lot of Volunteers, we provide excellent sessions, refreshments, and lunch providing ample opportunities to interact with local professionals. We ensure there is adequate and comfortable space for all Sponsors to meet with attendees, and network. We work hard to ensure that the SQLSaturday is a great experience for all, especially our Sponsors without whom the event just would not happen.</p>
+    <p>This is our 14th annual SQL Saturday event, and it has grown steadily since being the #3 SQL Saturday in 2006. With the support of our Sponsors, remains free and open to the public. For 2017-2019, SQLSaturday Jacksonville attracted over 750 attendee registrations being the 3rd largest SQL Saturday in the United States. We had 50+ sessions led by 40+ world-class presenters. We anticipate sustaining our year-over-year increase in attendance for SQLSaturday. The volunteer organizers of SQL Saturday Jacksonville 2022 are proud to offer the following Sponsorship opportunities.</p>
+    <p>In addition to the standard Sponsorship levels, we offer a select set of Marquee Sponsorship Opportunities. These are special ways to show your support of SQL Saturday Jacksonville 2022 and achieve maximum visibility for your company. Find details about these premium Marquee Sponsorship Opportunities below. </p>
+    
+    <ol>
+    <li><b>Platinium Package $2500+</b> - Includes all benefits of the Gold Sponsorship. Upon request and availability, options are available to sponsor portions of the event (Lunch, After-Party, Speaker Party).</li>
+    <li><b>Gold Package $1,750+</b> - Includes all benefits of the Silver Sponsorship. An electronic list of attendees that submitted a raffle ticket for your raffle item. Upon request and availability, a lunch time session may be available for Gold Sponsors (Limited number of lunch time session slots).</li>
+    <li><b>Silver Package $1,250+</b> - Includes all benefits of the Bronze Sponsorship. One table and two chairs in our exhibitor area near registration and access to power. Inclusion of multi-page brochure or disk in the event bag (Sponsor must provide).</li>
+    <li><b>Bronze Package $750</b> - Logo included in printed event guide given to all attendees upon arrival Logo included in Guidebook Mobile App. Ability to include a one-page flyer in the event bag (Sponsor must provide at least 2 weeks ahead of event). Donate prizes for end of day event ($100 minimum value)</li>
+    <li><b>Individual or Blogger Package $25</b> - Name on SQL Saturday Jacksonville 2022 website(s) and our undying gratitude!</li>
+    </ol>
+    
+    <h1>Marquee Sponsorship Opportunities</h1>
+    <p>Support SQL Saturday Jacksonville 2022 with high visibility, high profile exposure for your company, organization, product or service with one of these premium Marquee Sponsorship Opportunities. Each of these represents a unique opportunity, so act now. They are available on a ‘first come’ basis.</p>
+    <ol>
+    <li><b>Speaker Shirts & Lanyards - $3,500</b> - Sponsor Logo and Name on all Speaker Shirts and Lanyards and all Gold Sponsor Benefits</li>
+    <li><b>Attendee T-Shirts - $3,000</b> - Sponsor Logo and Name featured prominently on attendee T-shirts (other sponsors will also have their logo included, but smaller) and all Gold Sponsor Benefits</li>
+    <li><b>Saturday Afternoon Ice Cream - $1,600</b> - Sponsor Logo and Name on All Ice Cream Tickets, named in schedule and announced for afternoon Ice Cream Treat and all Silver Sponsor Benefits</li>
+    <li><b>Saturday Morning Breakfast - $1,000</b> - Sponsor Logo and Name displayed above breakfast area and announced in schedule and all Silver Sponsor Benefits</li>
+    </ol>
+    
+    <h1>Additional Information</h1>
+    <p>SQL Saturday Jacksonville 2022 is produced by and for the community of SQL developers, administrators, and affiliated disciplines. Event Sponsorship does not entail oversight or selection of topics or content.</p>
+    <p>Credit card payments can be made online using PayPal to <a href="mailto:jaxssug@gmail.com">jaxssug@gmail.com</a>. or checks can be sent to 12375 Sunchase Drive, Jacksonville, FL 32246.</p>
+    <p>Marquee, Gold, and Silver Sponsors will receive a csv file containing the name/email list of the 'opt-in' attendees in addition to the entrants for Sponsor’s raffle item.</p>
+    <p>While SQLSaturday Jacksonville requires funds to operate, Sponsorship is also accepted in the form of ‘in-kind’ contributions where the goods or services provided are those required for SQLSaturday. We are especially interested in community groups helping plan and publicize the event. If you have any questions about how you can help, please contact us.</p>
+    <p>About ‘in-kind’ Sponsorships: We make a distinction between Sponsors that provide ‘cash’, and those that provide ‘in-kind’ Products and Services for raffles or other use. Our reasoning is thus:</p>
+    <p>A ‘cash’ Sponsor is providing the raw resource that is needed to produce SQLSaturday it pays equipment rental, shirts, lanyards, advertising, as well as refreshments and meals. Therefore, that Sponsor earns significant brand recognition and exposure benefits, as outlined in the Sponsorship ‘level’ document (Marquee, Gold, Silver, Bronze, etc.)</p>
+    <p>An ‘in-kind’ Sponsor is providing an optional resource one that, if need be, we can do without. Also, quite often, that optional resource is serving to provide brand recognition and exposure. At past events, to maximize their brand exposure, some Sponsors have done both sponsored at a cash level that was practical for them AND provided branded items. Those Sponsors then received both sets of benefits as outlined above.</p>
+
+    <h1>Logistics</h1>
+    <p>We’ll open the doors to sponsors at 7:30 am. Sponsors will be provided with table and two chairs, and limited access to 110v power (please let us know what you need in advance). Tables will be in the same area as registration and breakfast to make it easy for attendees to stop by your table. We encourage sponsors to remain on site through at least lunch and if possible, to have a representative present at the end of the day to present your prize at the end of day raffle.</p>
+    <p>Lunch will be provided to sponsors that have registered. Please have everyone from your team that will be attending register at www.sqlsaturday.com so that we can have enough food available.</p>
+    
+    <h1>Important Deadlines</h1>
+    <p>Sponsorships must be received in full no later than April 2, 2022 to guarantee inclusion in print and display materials. All Sponsor supplied materials must be received by April 18, 2022. Contact us for applicable shipping addresses.</p>
+
+    <h1>The Raffle – Your Key to Success!</h1>
+    <p>The biggest challenge with community events is capturing contact information for follow ups. Few attendees will have business cards and having them hand write their info often leads to a 30% or higher loss due to inability to read what they wrote! We provide attendees with a set of pre-printed raffle tickets (see below) that will contain their name and email address; they are then able to put these tickets into the raffle box at each sponsor table to try to win a prize. This gives you 100% readability and 0% loss! It is also more effective than any other technique we’ve seen for trying to capture contact information and that includes scanning their name badge.</p>
+    <p>Because we want you to be successful all our sponsorship levels include the requirement that you provide a prize of at least $100 in value, and that you provide a full color 8-1/2 x 11 flyers that highlights the prize(s) you are providing for the raffle.</p>
+    <p>We provide the raffle box. We will have one table for all absentee vendors placed in the same areas with our onsite vendors. Raffle ticket collection will proceed through the end of the day. If someone from your team is present, we’ll ask them to draw the winning ticket, otherwise we’ll draw the ticket. Attendees must be present to win. If there is a physical prize we’ll give it to them, otherwise we’ll forward you their contact information for you to follow up with (for license keys, etc.)</p>
+    <p>After the event we will mail you all the raffle tickets from your box. There may be duplicates; depending on how exciting your prize is attendees may contribute more than one ticket to your box – but that’s a good thing, they are willing to provide you their contact information in return for the chance to win.</p>
+
+    <h1>Contact Us</h1>
+    <p>We hope you’ll support this event! Please contact us at <a href="mailto:jeff@reviewmydb.com">jeff@reviewmydb.com</a> if you have any questions.</p>

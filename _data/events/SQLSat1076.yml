@@ -1,0 +1,297 @@
+name: "SQL Saturday Baton Rouge 2024"
+primarytag: "Baton%20%Rouge"
+logo:
+logocredit:
+date: 2024-07-27 08:30:00 -0600
+virtual: false
+physical: true
+hybrid: false
+description: |
+  SQL Saturday Baton Rouge is an all-day event put on by the Baton Rouge User Groups for the IT community in Baton Rouge and the greater Gulf South area.
+  We are open to IT professionals, students, and anyone interested in learning more about SQL Server, Development, and various other IT disciplines. We also have career development sessions.
+  <p></p>
+
+
+  <H2>Precon Tickets are now on sale</H2>
+  <p style="border-width:3px; border-style:solid; border-color:#FF0000; padding: 1em;">
+  We're thrilled to announce two fantastic preconference workshops at SQL Saturday Baton Rouge! Whether you're a data enthusiast or an automation wizard, these workshops are designed to enhance your skills and broaden your horizons. Both of these all-day sessions include breakfast and lunch!
+  <BR>
+  Register soon because space is limited. Use coupon code <B>EARLYBIRD</B> to save $25 if you register before June 1st.
+  <BR>
+  <BR>
+  <a href='https://www.eventbrite.com/e/883375589167?aff=oddtdtcreator'>PowerShell 101: Unleash the Power of Automation - James Petty</A>
+  <BR>
+  <a href='https://www.eventbrite.com/e/883371075667?aff=oddtdtcreator'>Build an Outlier Detector in a Day - Kevin Feasel</A>
+  </p>
+  <BR>
+  <H2>Open Data BR Hackathon!</H2>
+  <A href="https://docs.google.com/forms/d/e/1FAIpQLSdonEZFduqfTyFGVEJpdh-S4JgUV77yph3Zt1THFwCjBl00bg/viewform?usp=sf_link">Sign up here</A> to participate in our Open Data BR Hackathon.<br>
+  Create a project using the data on <A HREF="https://data.brla.gov/">Open Data BR</A>. The top sessions will present at SQL Saturday and compete for prizes.
+  <br>
+  <H2>Kids Robotics Camp</H2>
+  Presented by <A HREF="https://northshorerobotics.org/">North Shore Robotics</A> and sponsored by <A HREF="https://www.vmware.com/">VMware</A>
+  <BR>
+  <a href="https://forms.gle/G9WCUUciNm88vkuJ7">Sign up here</A>
+  <BR>
+  Open to all kids ages 5-15. This is an all-day robotics and STEM camp during SQL Saturday. Lunch is provided.
+  <BR>
+  <B><U>Register soon because space is limited.</B></U>
+
+eventlocation: |
+  LSU Business Education Complex<br>
+  501 South Quad Drive<br> 
+  Baton Rouge, LA 70803
+
+officialwebsite:
+registrationurl: https://www.eventbrite.com/e/sql-saturday-baton-rouge-2024-registration-828422793877
+capacity: 700
+googlemapurl: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3441.019211412751!2d-91.18084668474775!3d30.407196808299283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8626a71f53558cab%3A0xb2fe07baff64bbcb!2sLSU%20Business%20Education%20Complex!5e0!3m2!1sen!2sus!4v1649778118080!5m2!1sen!2sus
+
+scheduleurl: https://sessionize.com/api/v2/9xgawf2d/view/GridSmart
+scheduletimezone: Central Daylight Time UTC -7
+
+eventcountdown: true
+
+countdownscript: <script src="https://cdn.logwork.com/widget/countdown.js"></script><a href="https://logwork.com/countdown-zou9" class="countdown-timer" data-style="columns" data-timezone="America/Chicago" data-date="2024-07-27 07:45">Countdown Timer</a>
+
+speakertext: The call for speakers will close on May 10, 2024.
+speakerlisturl: https://sessionize.com/api/v2/9xgawf2d/view/SpeakerWall
+callforspeakersurl: https://sessionize.com/sqlsatbr/
+callforspeakers: false
+callforspeakersenddate: 10 May 2024
+
+organizers:
+  - name: Baton Rouge User Groups
+    twitter: brssug
+    email: sqlpassbr@gmail.com
+    url: https://www.brssug.org/home
+
+volunteers:
+  description: "Volunteers are very important to a successful event. Please contact the organizer to volunteer."
+  volunteerurl: https://www.signupgenius.com/go/10C084CAAAE2DA6FCC25-48554187-baton#/
+
+social:
+  twitter: sqlsatbr
+  youtube:
+  linkedin: https://www.linkedin.com/company/baton-rouge-user-groups/
+  instagram:
+  tiktok:
+  pinterest:
+  meetup: https://www.meetup.com/baton-rouge-net-and-sql-server-user-groups/
+
+sponsorscontacturl:
+sponsors:
+  - link: https://www.microsoft.com
+    type: Global
+    image: /assets/img/logos/Microsoft-logo_rgb_c-gray.png
+    width: 1264
+    height: 340
+  - link: https://www.lsu.edu/business/sdeis/index.php
+    type: Facility
+    width: 1000
+    image: /assets/img/logos/LSU-SDEIS-Logo.png
+  - link: https://www.excella.com/
+    type: Platinum
+    image: /assets/img/logos/Excella.jpg
+    width: 1000
+  - link: https://www.vmware.com
+    type: Platinum
+    image: /assets/img/logos/vmware_broadcomm.png
+    width: 1000
+  - link: https://www.envoc.com
+    type: Platinum
+    image: /assets/img/logos/envoc2.jpg
+    width: 1000
+  - link: https://www.cgi.com
+    type: Platinum
+    image: /assets/img/logos/CGI_logo_color_rgb.png
+    width: 1000
+  - link: https://www.EisnerAmper.com
+    type: Gold
+    image: /assets/img/logos/EAG.jpg
+    width: 500
+  - link: https://www.dbaduck.com/
+    type: Gold
+    image: /assets/img/logos/DBADuck.png
+    width: 500
+  - link: https://www.pcgla.com
+    type: Gold
+    image: /assets/img/logos/gold/PCG-Logo-w-Name.png
+    width: 500
+  - link: https://www.bcbsla.com
+    type: Gold
+    image: /assets/img/logos/BCBSLA_logo.png
+    width: 500
+  - link: https://suscosolutions.com/
+    type: Gold
+    image: /assets/img/logos/gold/SUSCO-Gold.png
+    width: 500
+  - link: https://rubrik.com/
+    type: Gold
+    image: /assets/img/logos/Rubrik Logo.png
+    width: 500
+  - link: https://www.quest.com
+    type: Gold
+    image: /assets/img/logos/gold/Quest_Gold.jpg
+    width: 500
+  - link: https://www.glean.com/
+    type: Gold
+    image: /assets/img/logos/gold/Glean.jpg
+    width: 500
+  - link: https://www.cozyroc.com/
+    type: Silver
+    image: /assets/img/logos/silver/cozyroc-silver.png
+    width: 200
+  - link: https://elevator3.com
+    type: Silver
+    image: /assets/img/logos/silver/E3_VLogo_Black@3x.png
+    width: 200
+  - link: https://kuvare.com
+    type: Silver
+    image: /assets/img/logos/kuvare-logo.png
+    width: 200
+  - link: https://silk.us/
+    type: Silver
+    width: 200
+    image: /assets/img/logos/silver/Silk_logo_silver.png
+  - link: https://engage.isaca.org/batonrougechapter/home
+    type: Bronze
+    width: 150
+    image: /assets/img/logos/bronze/ISACA_BR.png
+  - link: https://antaresnet.com/
+    type: Bronze
+    width: 150
+    image: /assets/img/logos/Anatres-Logo.jpg
+  - link: https://sqlhouse.com/
+    type: Blog
+    image: /assets/img/logos/sqlhouse.png
+    width: 90
+  - link: https://red9.com/
+    type: Blog
+    image: /assets/img/logos/red9_simplified.jpg
+    width: 90
+  - link: https://apress.com/us
+    type: Book
+    image: /assets/img/logos/apress_thumb.gif
+    width: 90
+
+sponsorplan: <h1><a name="sponsorship">Sponsorship Plan</a></h1>
+  <h2>Booth space is <b>sold out</b></h2>
+  <h2>Click <a href="https://1drv.ms/w/s!ArJKDbZJcmzGgYGHElAq8K2tZw3zbaw" target="_blank" rel="noopener noreferrer">here</a> to see our full sponsorship document</h2>
+  <h3>To sponsor, please fill out the form at this link - <a href="https://forms.gle/hhvJhNcbiNhbEbg98" target="_blank">https://forms.gle/hhvJhNcbiNhbEbg98</a></h3>
+  <style type="text/css">
+  .tg  {border-collapse:collapse;border-spacing:0;}
+  .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+  .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+  .tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
+  .tg .tg-amp4{color:#32cb00;font-weight:bold;text-align:center;vertical-align:top}
+  .tg .tg-baqh{text-align:center;vertical-align:top}
+  .tg .tg-pesa{border-color:#000000;color:#fe0000;font-weight:bold;text-align:center;vertical-align:top}
+  .tg .tg-mcqj{border-color:#000000;font-weight:bold;text-align:left;vertical-align:top}
+  .tg .tg-mqa1{border-color:#000000;font-weight:bold;text-align:center;vertical-align:top}
+  .tg .tg-0lax{text-align:left;vertical-align:top}
+  .tg .tg-enc7{border-color:#000000;color:#32cb00;font-weight:bold;text-align:center;vertical-align:top}
+  .tg .tg-mxrt{color:#fe0000;font-weight:bold;text-align:center;vertical-align:top}
+  </style>
+  <table class="tg">
+  <thead>
+  <tr>
+  <th class="tg-mcqj"></th>
+  <th class="tg-1wig">Cost</th>
+  <th class="tg-mqa1">Logo on Website</th>
+  <th class="tg-mqa1">Material in Attendee Bags</th>
+  <th class="tg-mqa1">Sponsor User Groups</th>
+  <th class="tg-mqa1">Contact List</th>
+  <th class="tg-mqa1">Banquet Invitations</th>
+  <th class="tg-mqa1">Exclusive Presence Options</th>
+  <th class="tg-mqa1">Email Blast to Attendees</th>
+  <th class="tg-mqa1">Participate in End of Day Raffle</th>
+  <th class="tg-mqa1">Booth Space</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td class="tg-mcqj">Platinum</td>
+  <td class="tg-0lax">$2000</td>
+  <td class="tg-enc7">YES</td>
+  <td class="tg-enc7">YES</td>
+  <td class="tg-enc7">YES</td>
+  <td class="tg-enc7">YES</td>
+  <td class="tg-enc7">YES</td>
+  <td class="tg-enc7">YES</td>
+  <td class="tg-enc7">YES (x2)</td>
+  <td class="tg-amp4">YES</td>
+  <td class="tg-amp4">10' x 10'*</td>
+  </tr>
+  <tr>
+  <td class="tg-mcqj">Gold</td>
+  <td class="tg-0lax">$1000</td>
+  <td class="tg-enc7">YES</td>
+  <td class="tg-enc7">YES</td>
+  <td class="tg-enc7">YES</td>
+  <td class="tg-enc7">YES</td>
+  <td class="tg-enc7">YES</td>
+  <td class="tg-pesa">NO</td>
+  <td class="tg-pesa">NO</td>
+  <td class="tg-amp4">YES</td>
+  <td class="tg-amp4">5' x 8'</td>
+  </tr>
+  <tr>
+  <td class="tg-mcqj">Unattended Booth</td>
+  <td class="tg-0lax">$750</td>
+  <td class="tg-enc7">YES</td>
+  <td class="tg-enc7">YES</td>
+  <td class="tg-enc7">YES</td>
+  <td class="tg-enc7">YES</td>
+  <td class="tg-pesa">NO</td>
+  <td class="tg-pesa">NO</td>
+  <td class="tg-pesa">NO</td>
+  <td class="tg-amp4">YES</td>
+  <td class="tg-amp4">5' x 5'</td>
+  </tr>
+  <tr>
+  <td class="tg-mcqj">Silver</td>
+  <td class="tg-0lax">$500</td>
+  <td class="tg-enc7">YES</td>
+  <td class="tg-enc7">YES</td>
+  <td class="tg-enc7">YES</td>
+  <td class="tg-pesa">NO</td>
+  <td class="tg-pesa">NO</td>
+  <td class="tg-pesa">NO</td>
+  <td class="tg-pesa">NO</td>
+  <td class="tg-enc7">YES</td>
+  <td class="tg-amp4">5' x 5'</td>
+  </tr>
+  <tr>
+  <td class="tg-mcqj">Bronze</td>
+  <td class="tg-0lax">$200</td>
+  <td class="tg-enc7">YES</td>
+  <td class="tg-enc7">YES</td>
+  <td class="tg-pesa">NO</td>
+  <td class="tg-pesa">NO</td>
+  <td class="tg-pesa">NO</td>
+  <td class="tg-pesa">NO</td>
+  <td class="tg-pesa">NO</td>
+  <td class="tg-mxrt">NO</td>
+  <td class="tg-mxrt">NONE</td>
+  </tr>
+  <tr>
+  <td class="tg-mcqj">Personal</td>
+  <td class="tg-0lax">$50</td>
+  <td class="tg-enc7">YES</td>
+  <td class="tg-pesa">NO</td>
+  <td class="tg-pesa">NO</td>
+  <td class="tg-pesa">NO</td>
+  <td class="tg-pesa">NO</td>
+  <td class="tg-pesa">NO</td>
+  <td class="tg-pesa">NO</td>
+  <td class="tg-mxrt">NO</td>
+  <td class="tg-mxrt">NONE</td>
+  </tr>
+  <tr>
+  <td class="tg-baqh" colspan="11">*A larger Platinum space is available. See the sponsorship document for details.</td>
+  </tr>
+  </tbody>
+  </table>

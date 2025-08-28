@@ -1,0 +1,9 @@
+---
+layout: event
+title: "SQL Saturday Austin 2023 (#1043)"
+subtitle: ""
+tags: ["Austin", "Texas", "USA", "physical", "2023", "North America"]
+thumb: /assets/img/logos/Just_icon_Color_small.png
+comments: false
+data: SQLSat1043
+---

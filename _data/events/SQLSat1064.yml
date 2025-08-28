@@ -1,0 +1,106 @@
+name: "SQL Saturday Toronto 2023"
+primarytag: "Toronto"
+logo: 
+logocredit: 
+date: 2023-10-21 08:00:00 -0000
+virtual: false
+physical: true
+hybrid: false
+description: | 
+    <p>SQL Saturday Toronto 2023 is a full day of free training and cutting-edge educational material for the professionals in the Microsoft Data Platform space. We will bring to you World-grade technical speakers to deliver demos loaded presentations.</p>
+    <p>This is a great way to meet people from the same field of expertise and network around.</p>
+    
+
+eventlocation: |
+  EY Tower<br/>
+  100 Adelaide St W<br/>
+  Toronto, ON  M5H 0E2
+
+eventlocationurl: 
+
+officialwebsite: 
+registrationurl: https://www.eventbrite.ca/e/sql-saturday-toronto-2023-tickets-696451504197?aff=oddtdtcreator
+capacity: 150
+googlemapurl: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11547.646652174843!2d-79.3825353!3d43.6500062!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34cd6538c9a7%3A0x4df5c6f910d1a232!2sEY%20Tower!5e0!3m2!1sen!2sus!4v1693600182303!5m2!1sen!2sus"
+
+scheduleurl: https://sessionize.com/api/v2/3vig8ss0/view/GridSmart
+scheduletimezone: Eastern Daylight Savings time UTC -5
+
+eventcountdown: true
+countdownscript: |
+    <script src="https://cdn.logwork.com/widget/countdown.js"></script><a href="https://logwork.com/countdown-71sb" class="countdown-timer" data-timezone="America/New_York" data-date="2023-10-21 08:00">Countdown</a> 
+ 
+speakertext: The call for speakers is closed.
+speakerlisturl: 
+callforspeakersurl: https://sessionize.com/sql-saturday-toronto-2023/
+callforspeakers:  true
+callforspeakersenddate: Sep 15, 2023
+
+organizers:
+  - name: Toronto Data Platform Professionals Community
+    twitter: paulswengrr
+    email: Diponkar@torontodpc.ca
+    url: https://www.meetup.com/toronto-data-professionals-meetup-group/
+  - name: Arthur Zubarev
+    twitter: ArthurZ
+  - name: Deborah Jones 
+    url: https://www.linkedin.com/in/deborahleighjones/
+  - name: Thimantha Vidanagamage
+    twitter: ThimanthaV
+  - name: Armando Lemos
+    url: https://www.linkedin.com/in/developer-armando-lemos/
+
+volunteers:
+  description: "Volunteers are very important to a successful event. Please contact the organizer to volunteer."
+  volunteerurl:
+
+social:
+  twitter: 
+  youtube: 
+  linkedin: https://www.linkedin.com/company/toronto-pass/
+  instagram: 
+  tiktok: 
+  pinterest: 
+  facebook: TorontoDataProfessionals
+  meetup: https://www.meetup.com/toronto-data-professionals-meetup-group/
+
+sponsorscontacturl: 
+sponsors:
+  - link: https://www.microsoft.com
+    type: Global
+    image: /assets/img/logos/Microsoft-logo_rgb_c-gray.png
+    width: 1264
+    height: 340
+  - link: https://global.hitachi-solutions.com/
+    type: Gold
+    image: /assets/img/logos/gold/HitachiSolutions_Gold.png
+    width: 776
+    height: 176
+  - link: https://www.omers.com/
+    type: Gold 
+    image: /assets/img/logos/gold/OmersLogo_gold.png
+    width: 174
+    height: 41
+  - link: https://adastra.digital/
+    type: Gold
+    image: /assets/img/logos/gold/adastra_logo_basic_red_RGB_gold.png
+    width: 510
+    height: 70
+  - link: https://www.databricks.com/
+    type: Silver
+    image: /assets/img/logos/silver/databricks_silver.png
+    width: 676
+    height: 144
+
+  
+
+sponsorplan:
+    <h1><a name="sponsorship">Sponsorship Plan</a></h1>
+    <p>SQLSaturday Toronto, Canada will be held on October 21st, 2023. This year we plan to deliver two tracks with each having five one-hour presentations and an end of day gathering for giving away prizes. We are forecasting 125 attendees (150+ registrations).</p>
+    <h2>Sponsorship Levels</h2>
+    <p>All sponsors will be listed on our SQLSaturday event page and announced to attendees during the event. All sponsorship fees must be paid in advance of the event. If you want to discuss an option or idea not listed below, please contact us, we will do our best to work with you!</p>
+    <ul>
+      <li><b>Gold ($1500)</b> - The ideal sponsor level for those that want to be on site to interact with our attendees and we will give them 30 minutes slot to talk about their tools and technologies which interest the data professional’s community.</li>
+      <li><b>Silver ($1000)</b> - For sponsors who are not able to attend in person but want to support our event and build brand awareness.! Sign up to be a Silver Sponsor!</li>
+      <li><b>Bronze ($500)</b> - For companies who want to support our event or engage in local brand building we include your logo on our event pages and let all our attendees know how much we appreciate your support!</li>
+    </ul>

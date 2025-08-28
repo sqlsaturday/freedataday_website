@@ -1,0 +1,311 @@
+name: "SQL Saturday Jacksonville 2024"
+primarytag: "Jacksonville"
+logo: /assets/img/logos/2024_SQLSaturday_Logo_Horizontal_Color1280.png
+logocredit: 
+date: 2024-05-04 08:00:00 -0000
+virtual: false
+physical: true
+hybrid: false
+description: |
+    <p><b>Jacksonville's 16th Annual SQL Saturday</b> event includes paid pre-con tracks and one FREE day (optional $15 lunch) of training sessions for Microsoft Data Platform 
+    professionals and those wanting to grow their Business Intelligence, Analytics, and SQL Server skills. This event is hosted by Jacksonville SQL Server Users Group, a 501(c)(3) non-profit organization.</p>
+    <p>SQL Saturday will be held on May 3rd and May 4th, 2024. Please register soon, as seating is limited, and let friends and colleagues know about the event. </p>
+    <p><b>Why Attend?</b> This is a great opportunity to learn from SQL Server Experts, Microsoft MVPs, SQL Server Authors, and Professionals who have been through and can relate to the daily obstacles you face. 
+    This one-day training event is unlike any other, providing food, training, and networking.</p>
+
+    <p><b>SQL Clinic</b> - We will have a room set up for you to ask our SQL Experts for assistance with any current challenges you might be having. Look for this image posted at the door:<br/>
+    <img style="max-width: 50%;" src="/assets/img/logos/SQLRedCross.png"</p>
+
+    <p><b>Women In Technology Lunch Panel</b> - Bridging the Gap: Evaluating the Impact of Investment on Women in Technology and Addressing Bias - Lunch Session - Hosted by: Kellyn Gorman</p>
+eventlocation: |
+    University of North Florida (UNF)<br>
+    1 UNF Drive<br>
+    Jacksonville, Florida USA<br>
+    <br>
+    Sessions will be in Building 51 and Building 4.<br>
+    <br>
+    Parking in Garage 38 near the baseball fields.<br><br>
+
+eventlocationurl: https://maps.unf.edu/
+
+officialwebsite: http://jssug.org
+registrationurl: https://bit.ly/3XsTrrf
+capacity: 800
+googlemapurl: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3445.7643799449365!2d-81.5111779040169!3d30.272302057590043!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xccf210f6f48f2d0a!2sUniversity%20of%20North%20Florida!5e0!3m2!1sen!2sus!4v1647297378237!5m2!1sen!2sus
+precons: true
+precondetail: |
+    <p>Pre-Cons will be held on Friday May 3rd.</p>
+    <a href="https://bit.ly/3XsTrrf"><h1>PreCon: Harnessing the Power of Microsoft Fabric - Accelerating Insights with OneLake, Power BI, and Synapse - Patrick LeBlanc - GuyInACube</h1></a>
+    <a href="https://bit.ly/3XsTrrf"><h3>Click Here To Register - https://bit.ly/3XsTrrf</h3></a>
+    <h3>Session Details:</h3>
+    <p>In this session, we will explore the incredible potential of Microsoft Fabric, a cutting-edge data platform designed to unlock the full power of your data and artificial intelligence (AI). With its robust suite of capabilities, Microsoft Fabric empowers organizations to leverage data effectively and extract actionable insights. Join us as we dive into the key components of Microsoft Fabric, including OneLake, the revolutionary “OneDrive for data” solution that simplifies data storage, organization, and sharing. From leveraging lakehouses and notebooks, to data warehousing and data movement with Pipelines and Dataflows, we will also delve into how this empowers Power BI, Microsoft’s leading business intelligence tool, which allows users to visualize data and gain valuable insights through interactive dashboards and reports.</p>
+    <h3>Speaker:</h3>
+    <p>Patrick LeBlanc is currently a Principal Program Manager at Microsoft and a contributing partner to Guy in a Cube. Along with his 15+ years’ experience in IT he holds a Masters of Science degree from Louisiana State University. He is the author and co-author of five SQL Server books. Prior to joining Microsoft he was awarded Microsoft MVP award for his contributions to the community. Patrick is a regular speaker at many SQL Server Conferences and Community events.</p>
+    <p>What will you learn?</p>
+    <ul>
+    <li>What is OneLake and why is it so revolutionary?</li>
+    <li>Building your Lakehouse in Fabric</li>
+    <li>Mastering Data warehousing in Fabric</li>
+    <li>Orchestrating with pipelines and dataflows</li>
+    <li>Understanding Power BI’s role in Fabric</li>
+    </ul>
+    <a href="https://bit.ly/3XsTrrf"><h1>PreCon: Unlocking AI Potential for the Data Professional: Azure OpenAI - Speakers: Buck Woody, Bradley Ball, Josh Luedeman, Daniel Taylor, Andres Padilla, and Neeraj Jhaveri</h1></a>
+    <a href="https://bit.ly/3XsTrrf"><h3>Click Here To Register - https://bit.ly/3XsTrrf</h3></a>
+    <h3>Session Details:</h3>
+    <p>Are you ready to unleash the full potential of artificial intelligence? Whether you’re a seasoned Data Professional or just dipping your toes into the world of machine learning, our full-day session will empower you with the knowledge to create groundbreaking solutions.</p>
+
+    <p><b>Why Attend?</b></p>
+    <ul>
+    <li>AI & Azure OpenAI Unveiled: Get an exclusive introduction to Azure Open AI, a comprehensive suite of tools and services designed to empower developers like you.</li>
+    <li>Cutting-Edge Insights: Dive into the latest breakthroughs in natural language processing, computer vision, conversational AI, and generative models.</li>
+    <li>Harness the Fusion: Discover how the synergy between artificial intelligence and cloud computing can revolutionize your business and data projects.</li>
+    <li>Hands-On Collaboration: Engage in collaborative exercises where you’ll team up with fellow participants. Together, you’ll design robust architectures and make informed decisions about AI project implementation.</li>
+    <li>Scalability and Security: Learn how to build scalable, secure, and responsible AI/Data solutions using Azure OpenAI.</li>
+    </ul>
+
+    <p><b>Key Takeaways</b></p>
+    <p>
+    By the end of this session, you’ll walk away with:<br>
+    1. Deep Understanding: A solid grasp of the Azure Open AI ecosystem and its capabilities.<br>
+    2. Decision-Making Superpowers: The ability to make informed choices when it comes to AI project design and deployment.<br>
+    3. Modern Guidance: Valuable insights and practical tips to elevate your AI projects to new heights.<br>
+    </p>
+    <h3>Speakers:</h3>
+
+    <p><b>Buck Woody</b> is an Applied Data Scientist working on the Azure Data Services team at Microsoft, and uses data and technology to solve business and science problems. With over 39 years of professional and practical experience in computer technology, he is also a popular speaker at conferences around the world; author of over 700 articles and nine books on databases, machine learning, and R, he also sits on various Data Science Boards at two US Universities and specializes in advanced data analysis techniques. He is passionate about mentoring and growing the next generation of data professionals.
+    Specialties: Data, Data Science, Databases, Communication, Teaching, Speaking, Writing, Cloud Computing, Security<br>
+    Clifton's Strengths: Individualization, Learner, Connectedness, Positivity, Achiever, Ideation
+    </p>
+
+    <p><b>Bradley</b> Ball is a Sr. FastTrack Azure Engineer on the Microsoft CXP Product Group. He is a current Microsoft MVP Reconnect member and former MVP. Bradley spent 8 years working as a Defense contractor for clients such as the U.S. Army and The Executive Office of the President of the United States, was the Data Platform Practice Manager for Pragmatic Works Consulting, and a Sr. Consultant for Microsoft Premier Support for Developers. He has presented at many SQL Saturdays, for PASS SSUG’s across the US from California to Puerto Rico to New Hampshire, SQL Rally, DevConnections, SQLBits 2015, TechReady 24, SQL Live 360 2011-2019, SQL Intersections 2019 - 2021, & the PASS Summit 2011-2015. He wrote Chapter 14 Page & Row Compression for PRO SQL Server 2012 Best Practices, he hosts the Tales from the Field weekly Azure Data Community Round table and technical videos on https://www.youtube.com/@Tales-from-the-Field with his Azure FastTrack PG colleagues, and he can be found blogging on http://www.sqlballs.com about anything else that interests him.
+    </p>
+
+    <p><b>Josh Luedeman</b> is a Principal Engineer with Azure Engineering's CXP team at Microsoft, focusing on Big Data, Analytics, and Cloud Architecture. He is a regular speaker at Professional Association of SQL Server(PASS) events, Code on the Beach, the PASS Summit, Microsoft Ignite, and other IT conferences. He has worked in IT for over 10 years and currently works with customers in industries like Higher Education, Consulting, Manufacturing, and Software Development to help them migrate their workloads to the Azure cloud.</p>
+
+    <p><b>Daniel Taylor</b> is a Microsoft Sr. Service Engineer on the FastTrack for Azure and Azure Engineering CXP Team. He have presented a pre-con on Azure Dedicated Pools at SQL Saturday Jacksonville and was a speaker at many SQL Saturday events. My consulting role at Pragmatic Works provided me an opportunity to present the Airlift Dedicated Pool workshop to a large audience. Outside of public speaking engagements, my role within Microsoft has provided me with the opportunity to speak with large groups about the benefits of migrating to Azure, as well as, the capabilities of SQL Server on-premises and in the cloud. My passion these days is helping folks modernize within Azure utilizing one of our many PaaS solutions, as well as, the out of the box SQL Server product.</p>
+
+    <p><b>Andres Padilla</b> is a  Microsoft Principal FastTrack Engineer, Azure Engineering – CXP. A passionate Microsoft Cloud Architect with over 20 years of experience focusing on analytics, streaming data, IoT and Azure Technologies. Along the way, I have been able to live in corporate IT, get dirty with big data, jump into the cloud and take a shot at the start-up world. I spend my days blending cloud architectures, business strategy, coding, influencing, designing, motivating and delivering solutions that live in the cloud. My goal is to constantly push myself, absorb different perspectives, inspire and be inspired, learn from every experience and create something exciting, awesome and new.</p>
+
+    <p><b>Neeraj Jhaveri</b> is Sr. Azure Fasttrack Engineer with expertise in providing Data, Analytics and AI solutions. Neeraj has MS in Computer Science from NYIT. He has about 20 years of experience in the IT industry as an Architect/Team Leader which includes experience
+    in Data warehousing, Business Intelligence & analytics areas. IT Leader managing and delivering Big Data & Business Intelligence solutions while promoting analytics driven culture.
+    He has worked closely with Client Managers, Solution Architects, Leads, Users and Development teams in successfully translating business requirements into specifications, planning and deliverable. Neeraj is one of the founding host of Tales from the Field youtube channel.</p>
+
+scheduleurl: https://sessionize.com/api/v2/0n2m605k/view/GridSmart
+printscheduleurl: https://sessionize.com/view/0n2m605k/GridSmart?format=Embed_Styled_Html&isDark=False&title=SQL%20Saturday%20Jacksonville%20%231068
+scheduleheight : 3500
+scheduletimezone: Eastern Daylight Savings time UTC -5
+lunchcost: $15 (optional)
+eventhotel: |
+  <a href="https://bit.ly/3GHZDot">Hilton Tru</A><br/>
+  You may place discounted reservations between 5/2/24 - 5/7/24 - All reservations must be booked before 4/11/24 for the discount. 
+eventcountdown: false
+
+countdownscript:
+ 
+speakertext: The call for speakers is closed
+speakerlisturl: https://sessionize.com/api/v2/5mrwljfq/view/Speakers
+submittedsessionurl: https://sessionize.com/api/v2/z3fvzpjq/view/Sessions
+
+callforspeakersurl: https://sessionize.com/sqlsatjax/
+callforspeakers: false
+callforspeakersenddate: 18 Mar 2024
+
+organizers:
+  - name: Jeff Taylor
+    twitter: reviewmydb
+    email: "jeff@jefftaylor.io"
+    url: https://jefftaylor.io
+
+volunteers:
+  description: "Volunteers are very important to a successful event. Please select the 'Yes' to Volunteer during registration or contact the organizer to volunteer."
+  volunteerurl:
+
+social:
+  twitter: jaxssug
+  youtube: 
+  linkedin: https://www.linkedin.com/company/jssug
+  instagram: 
+  tiktok: 
+  pinterest: 
+
+sponsorscontacturl: 
+sponsors: 
+  - link: https://www.microsoft.com
+    type: Global
+    image: /assets/img/logos/Microsoft-logo_rgb_c-gray.png
+    width: 1264
+    height: 340
+  - link: https://www.unf.edu/ccec
+    image: /assets/img/logos/UNFLogo.jpg
+  - link:  https://www.cozyroc.com
+    image: /assets/img/logos/cozyroc-big.png
+  - link:  https://dbeaver.com
+    image: /assets/img/logos/DBeaver.png
+  - link:  https://silk.us
+    image: /assets/img/logos/Silk_Logo_Medium.png
+  - link:  https://www.onecallcm.com
+    image: /assets/img/logos/Onecall_logo_cmyk.png
+  - link:  https://www.red-gate.com/simple-talk
+    image: /assets/img/logos/RedGateSimpleTalk.png
+  - link:  https://sqlhouse.com
+    image: /assets/img/logos/SQL-House-logo-400-x-90-px.png
+  - link: https://us.sios.com/
+    image: /assets/img/logos/sios_Medium.png
+  - link:  https://centricconsulting.com
+    image: /assets/img/logos/CentricConsulting.png
+  - link:  https://vystar.org
+    image: /assets/img/logos/VyStar_logo_Medium.png
+  - link:  https://datasparc.com
+    image: /assets/img/logos/DBHawkMedium.png
+  - link:  https://www.sqlgrease.com
+    image: /assets/img/logos/sqlgrease.png
+  - link:  https://quest.com
+    image: /assets/img/logos/Quest-logo-800px.jpg
+  - link:  https://nlplogix.com
+    image: /assets/img/logos/NLP LogixLogoSmall.png
+  - link:  https://idera.com
+    image: /assets/img/logos/IDERA938x142.jpg
+  - link:  https://www.oreilly.com
+    image: /assets/img/logos/OReilly_Logo.png
+  - link:  https://www.octopusdeploy.com
+    image: /assets/img/logos/OctopusDeploy.png
+  - link:  https://www.vmware.com
+    image: /assets/img/logos/VMware_by_Broadcom_Black.png
+
+    
+sponsorplan: |
+    <p>SQL Saturday Jacksonville 2024 #1068 is an entire day conference related to the SQL Server and data technology. SQL Saturday is organized by the Jacksonville SQL Server Users Group, a 501c3 non-profit organization.</p>
+    <p>With the help of a lot of Volunteers, we provide excellent sessions, refreshments, and lunch giving ample opportunities to interact with local professionals. In addition, we ensure adequate and comfortable We work hard to 
+    ensure that the SQLSaturday is an excellent experience for all, especially our Sponsors, without whom the event would not happen. Therefore, we aim to present at least six opportunities to route each attended to your booth.</p>
+    <p>This is our 16th annual SQL Saturday event, which has grown steadily since being the #3 SQL Saturday in 2006. With the support of our Sponsors, it remains free and open to the public. For 2017-2019, SQL Saturday Jacksonville 
+    attracted over 750 attendee registrations, the 3rd largest SQL Saturday in the United States. We had 50+ sessions led by 50+ world-class presenters. In 2022 and 2023, Jacksonville hosted the largest SQL Saturday in the world for the year. 
+    We anticipate sustaining our year-over-year increase in attendance for SQLSaturday. The volunteer organizers of SQL Saturday Jacksonville 2024 are proud to offer the following Sponsorship opportunities.</p>
+    <p>These are several ways to show your support of SQL Saturday Jacksonville 2024 and achieve maximum visibility for your company. Find details about these premium Marquee Sponsorship Opportunities below.</p>
+    <table>
+    <tr>
+      <td><b>Base Sponsor Levels</b></td>
+      <td><b>Amount</b></td>
+      <td><b>Sponsor Benefits</b></td>
+    </tr>
+     <tr>
+      <td>AI Sponsorship</td>
+      <td>$6,500</td>
+      <td>Includes all benefits of the Platinum Sponsorship.<br/>
+        Includes the use of an iPad and stand to take pictures and create AI-generated images. All attendees who participate create an output image with the AI-generated image and your company logo at the bottom in digital form.
+      </td>
+    </tr>
+    <tr>
+      <td>Platinum Sponsorship</td>
+      <td>$2,500</td>
+      <td>Includes all benefits of the Gold Sponsorship.<br/>
+        Includes the entire electronic attendee list of those who attended and those who did not attend.
+      </td>
+    </tr>
+    <tr>
+      <td>Gold Sponsorship</td>
+      <td>$1,800</td>
+      <td>Includes all benefits of the Silver Sponsorship.<br/>
+        Includes an electronic list of any scanned raffle ticket attendees' QR codes.
+      </td>
+    </tr>
+    <tr>
+      <td>Silver Sponsorship</td>
+      <td>$1,300</td>
+      <td>Includes all benefits of the Bronze Sponsorship.<br/>
+        Includes one table and two chairs in our exhibitor area near registration and access to power.<br>
+        Includes the inclusion of a multi-page brochure or disk/USB drive in the event bag (Sponsor must provide at least two weeks ahead of the event).<br>
+        Raffle tickets will be provided to all attendees, and the sponsor should retain a fish bowl for collection to use for the raffle at the end of the event.<br>
+        Raffle tickets can be saved with the name and email address to reach out to contacts.<br>
+        </td>
+    </tr>
+    <tr>
+      <td>Bronze Sponsorship</td>
+      <td>$800</td>
+      <td>Includes logo printed on event t-shirts given to all attendees upon arrival.<br>
+        Includes logo on SQL Saturday website.<br>
+        Includes logo included on social media posts.<br>
+        Includes logo, Twitter handle, and website links included in posts.<br>
+        Includes inclusion of a one-page flyer in the event bag (Sponsor must provide at least two weeks ahead of the event).<br>
+        Sponsor MUST provide a price to raffle on day event ($100 minimum value)<br>
+      </td>
+    </tr>
+    <tr>
+      <td>Individual or Blogger</td>
+      <td>$50</td>
+      <td>Name and logo on SQL Saturday Jacksonville 2024 website(s) and our undying gratitude!</td>
+    </tr>
+    </table>
+    <h2>Add On Sponsorship Opportunities</h2>
+    <p>Support SQL Saturday Jacksonville 2024 with high visibility and high profile exposure for your company, organization, product, or service with one of these premium Add On Sponsorship Opportunities. Each of these represents a unique opportunity, so act now. They are available on a first come first, serve basis.</p>
+    <table>
+    <tr>
+      <td><b>Sponsorship</b></td>
+      <td><b>Amount</b></td>
+      <td><b>Sponsor Benefits</b></td>
+    </tr>
+    <tr>
+      <td>Lunch Session – 2 spots available</td>
+      <td>$2,500</td>
+      <td>Lunch Session in a large auditorium, with special announcements with signs in the hallway and announced during lunch to direct attendees to rooms. It is suggested to raffle off an additional prize announced on the sponsor's table during the lunch session to draw attendees to the session. - Base Gold Sponsorship Required</td>
+    </tr>
+    <tr>
+      <td>Speaker Shirts – 1 spot available</td>
+      <td>$3,500</td>
+      <td>Sponsor Logo and Name on all Speaker Shirts. - Base Gold Sponsorship Required</td>
+    </tr>
+    <tr>
+      <td>Lanyards – 1 spot available</td>
+      <td>$800</td>
+      <td>Sponsor Logo included on all Lanyards handed to all attendees and speakers. - Base Gold Sponsorship Required</td>
+    </tr>
+    <tr>
+      <td>Attendee T-Shirts – 1 spot available</td>
+      <td>$3,500</td>
+      <td>Sponsor Logo and Name featured prominently on attendee T-shirts (other sponsors will also have their logo included, but smaller). - Base Gold Sponsorship Required</td>
+    </tr>
+    <tr>
+      <td>Saturday Afternoon Ice Cream – 1 spot available</td>
+      <td>$1,800</td>
+      <td>Sponsor Logo and Name on All Ice Cream Tickets, on the door entry sign where ice cream is served, and on the toppings table, named in the schedule and announced for afternoon Ice Cream Treat and ability to have a representative collect tickets at entry door. - Base Gold Sponsorship Required</td>
+    </tr>
+    <tr>
+      <td>Saturday Morning Breakfast – 1 spot available</td>
+      <td>$1,000</td>
+      <td>Sponsor Logo and Name will be displayed above the breakfast area and announced in the schedule. - Base Gold Sponsorship Required</td>
+    </tr>
+    <tr>
+      <td>Saturday After Party – 1 spot available</td>
+      <td>$1,800</td>
+      <td>Sponsor Logo and Name will be displayed at the party venue and announced in the schedule and at raffle and ability to have a representative announce themselves and what company provides. - Base Gold Sponsorship Required</td>
+    </tr>
+    <tr>
+      <td>Speaker Party – 1 spot available</td>
+      <td>$1,800</td>
+      <td>Sponsor Logo and Name will be displayed at the party venue and ability to have a representative announce themselves and what company provides to all speakers and volunteers. - Base Gold Sponsorship Required</td>
+    </tr>
+    </table>
+
+    <h2>Contact Us</h2>
+    <p>We hope you’ll support this event! Please contact us at <a href="mailto:jeff@jefftaylor.io">jeff@jefftaylor.io</a> if you have any questions.</p>
+
+    <h2>Additional Information</h2>
+    <p>SQL Saturday Jacksonville 2024 is produced by and for the community of SQL developers, administrators, and affiliated disciplines. Event Sponsorship does not entail oversight or selection of topics or content.</p>
+    <p>Credit card payments can be made online using PayPal to jaxssug@gmail.com. (An additional fee will be added to cover PayPal fees at the non-profit rate) or checks can be sent to 12375 Sunchase Drive, Jacksonville, FL 32246. <mark>All funds must arrive two months (March 4, 2024) before the event to be included on printed material.</mark></p>
+    <p>While SQLSaturday Jacksonville requires funds to operate, Sponsorship is also accepted as 'in-kind' contributions where the goods or services provided are those needed for SQL Saturday. We are especially interested in community groups helping plan and publicize the event. Don't hesitate to get in touch with us if you have any questions about how you can help.</p>
+    <p>About 'in-kind' Sponsorships: We distinguish between Sponsors that provide 'cash', and those that supply 'in-kind' Products and Services for raffles or other use. Our reasoning is thus:<br>
+    <ul>
+      <li>A 'cash' Sponsor provides the raw resource needed to produce SQL Saturday. In addition, it pays for equipment rental, shirts, lanyards, advertising, refreshments, and meals. Therefore, that sponsor earns significant brand recognition and exposure benefits, as outlined in the Sponsorship 'level' document (Platinum, Gold, Silver, Bronze, etc.)</li>
+      <li>An 'in-kind' sponsor provides an optional resource that we can do without if need be. Also, that optional resource often serves to provide brand recognition and exposure. At past events, some Sponsors have sponsored both at a cash level that was practical for them AND provided branded items to maximize their brand exposure. Those Sponsors then received both sets of benefits as outlined above.</li>
+    </ul>
+    <h2>Logistics</h2>
+    <p>We'll open the doors to sponsors at 7:30 am. Sponsors will be provided with a table, two chairs, and limited access to 110v power (please let us know what you need in advance). Tables will be in the same area as registration and breakfast to make it easy for attendees to stop by your table. We encourage sponsors to remain on site through the end of the day and have a representative present to present your prize and collect all raffle tickets for use later.</p>
+    <p>Lunch will be provided to sponsors that have registered. So please have everyone from your team attending register at <a href="https://www.sqlsaturday.com/jax">https://www.sqlsaturday.com/jax</a> so that we can have enough food available.</p>
+    <h2>Important Deadlines</h2>
+    <p>Sponsorship payments must be received in full no later than <b><mark>March 4, 2024<mark></b> to guarantee inclusion in print and display materials. All sponsor-supplied materials must be received by April 20, 2024. (Do not send anything to arrive before April 15th as we do not have the storage facility any earlier) Contact us for applicable shipping addresses.</p>
+    <h2>The Raffle - Your Key to Success</h2>
+    <p>The biggest challenge with community events is capturing contact information for follow-ups. Few attendees will have business cards, and having them handwrite their info often leads to a 30% or higher loss due to the inability to read what they wrote! Instead, we provide attendees with pre-printed raffle tickets (see below) containing their name and email address; they can then put these tickets into the raffle box at each sponsor's table to win a prize. This gives you 100% readability and 0% loss! It is also more effective than any other technique for capturing contact information, including scanning their name badge.</p>
+    <p><img src="/assets/img/events/jax/samplebadge.jpg" alt="sample name badge"></p>
+    <p>Because we want you to be successful, all our sponsorship levels include the requirement that you provide a prize of at least $100 in value and a full-color 8-1/2 x 11 flyer highlighting the prize(s) you are providing for the raffle.</p>
+    <p>We will have one table for all absentee vendors in the same areas as our onsite vendors. Raffle ticket collection will proceed through the end of the day. If someone from your team is present, we'll ask them to draw the winning ticket. Otherwise, we'll select the ticket. Attendees must be present to win. If there is a physical prize, we'll give it to them. Otherwise, we'll forward their contact information for you to follow up with (for license keys, etc.)</p>
+    <h2>Contact Us</h2>
+    <P>We hope you'll support this event! Don't hesitate to contact us at <a href="mailto:Jeff@JeffTaylor.io">Jeff@JeffTaylor.io</a> if you have any questions.</p>

@@ -1,0 +1,893 @@
+---
+layout: base
+---
+{% assign eventdata = page.data %}
+{% assign pagedata = site.data.events[eventdata] %}
+
+{% include header.html type="event" %}
+
+      {% if page.before-content %}
+        <div class="before-content">
+          {% for file in page.before-content %}
+            {% include {{ file }} %}
+          {% endfor %}
+        </div>
+      {% endif %}
+
+    <div class="container container-sm">
+    <!-- Event -->
+      {% assign eventdate = pagedata.date %}
+      {% assign TodayDate = site.time | date: '%s' %}
+      {% if pagedata.logo %}
+        <p align="center"><img src="{{pagedata.logo}}"/>
+        {% if pagedata.logocredit %}
+          <br/><i>{{pagedata.logocredit}}</i>
+        {% endif %}
+        </p>
+      {% endif %}
+      <br/>
+        
+      <p><b><A href="top">Event Date</A>:</b> 
+        {% if pagedata.postponed == 1 %}
+          **Postponed**
+          {% if pagedata.eventupdate %}
+            {{ pagedata.eventupdate }}
+          {% endif %}
+        {% else %}
+          {{ eventdate | date_to_long_string }}
+        {% endif %}
+      </p>
+    
+      <p>This event is: 
+         {% if pagedata.virtual == true %}
+          Virtual
+         {% endif %}
+         {% if pagedata.physical == true %}
+           {% if pagedata.virtual == true %}
+           , 
+           {% endif %}
+           in-person
+           {% endif %}
+         {% if pagedata.hybrid == true %}
+         Hybrid (streamed and live)
+         {% endif %}
+         </ul>
+      </p>
+      {% if pagedata.capacity %}
+      <p>The capacity limit for this event is {{ pagedata.capacity }}
+      </p> 
+      {% endif %}
+      <p align="center">
+        {% if pagedata.eventbriteembed %}
+          {{ pagedata.eventbriteembed }}
+        {% else %}
+          {% if pagedata.registrationurl %}
+            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{pagedata.registrationurl}}" target="_blank" rel="noopener noreferrer">Register now</a>            
+            {% else %}
+            Registration coming soon
+          {% endif %}
+        {% endif %}
+      </p>
+      <!-- toc -->
+      <p align="center">
+        {% if pagedata.eventlocation %}
+        <a href="#location">Location</a> 
+        &#x25CF 
+        {% endif %}
+        <a href="#sponsor">Sponsors</a> 
+        &#x25CF 
+        {% if pagedata.usingrooms %}
+        <a href="#rooms">Rooms</a> 
+        &#x25CF 
+        {% endif %}
+        {% if pagedata.precons %}
+        <a href="#precon">Pre-cons</a> 
+        &#x25CF 
+        {% endif %}
+        <a href="#schedule">Schedule</a> 
+        &#x25CF 
+        <a href="#speakers">Speakers</a> 
+        &#x25CF 
+        <a href="#volunteer">Volunteers</a> 
+        &#x25CF 
+        <a href="#contact">Contact</a>
+        {% if pagedata.downloads %}
+          &#x25CF 
+          <a href="#downloads">Downloads</a> 
+        {% endif %}
+        {% if pagedata.downloads %}
+          &#x25CF 
+          <a href="#previous">Previous Events</a> 
+        {% endif %}
+        &#x25CF 
+        <a href="#sponsorship">Sponsorship Plans</a>
+      </p>
+      {% if pagedata.eventcountdown %}
+          {{ pagedata.countdownscript }}
+      {% endif %}
+
+</div>
+ 
+
+     <!-- Social -->
+     <div class="container container-md">
+     <h3 align="center"><a name="social"></a>Find us online</h3>
+     <p style="text-align: center;">
+     {% if pagedata.social.twitter %}
+       <a href="https://www.twitter.com/{{ pagedata.social.twitter }}" target="_blank"
+         class="btn btn-social-icon btn-twitter" title="Follow us on Twitter">
+         <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
+         <span class="sr-only">Twitter</span> 
+       </a>
+     {% endif %}
+     {% if pagedata.social.twitterurl %}
+       <a href="{{ pagedata.social.twitterurl }}" target="_blank"
+         class="btn btn-social-icon btn-twitter" title="Follow us on Twitter">
+         <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
+         <span class="sr-only">Twitter</span> 
+       </a>
+     {% endif %}
+     {% if pagedata.social.linkedin %}
+       <a href="{{ pagedata.social.linkedin }}" 
+       class="btn btn-social-icon btn-linkedin" title="Follow us on LinkedIn">
+       <span class="fab fa-fw fa-linkedin" aria-hidden="true"></span>
+       <span class="sr-only">LinkedIn</span>
+        </a>
+     {% endif %}
+     {% if pagedata.social.linkedinurl %}
+       <a href="{{ pagedata.social.linkedinurl }}" 
+       class="btn btn-social-icon btn-linkedin" title="Follow us on LinkedIn">
+       <span class="fab fa-fw fa-linkedin" aria-hidden="true"></span>
+       <span class="sr-only">LinkedIn</span>
+        </a>
+     {% endif %}
+     {% if pagedata.social.meetup %}
+       <a href="{{ pagedata.social.meetup }}" title="Find us on Meetup">
+       <img src="/assets/img/meetup.png"></a>
+     {% endif %}
+     {% if pagedata.social.instagram %}
+       <a href="https://www.instagram.com/{{ pagedata.social.instagram }}" 
+       class="btn btn-social-icon btn-instagram" title="Follow us on Instagram">
+       <span class="fab fa-fw fa-instagram" aria-hidden="true"></span>
+       <span class="sr-only">Instagram</span>
+        </a>
+     {% endif %}
+     {% if pagedata.social.youtube %}
+       <a href="https://www.youtube.com/{{ pagedata.social.youtube }}" 
+       class="btn btn-social-icon btn-youtube" title="Follow us on YouTube">
+       <span class="fab fa-fw fa-youtube" aria-hidden="true"></span>
+       <span class="sr-only">YouTube</span>
+        </a>
+     {% endif %}
+     {% if pagedata.social.pinterest %}
+       <a href="https://www.pinterest.com/{{ pagedata.social.pinterest }}" 
+       class="btn btn-social-icon btn-pinterest" title="Follow us on Pinterest">
+       <span class="fab fa-fw fa-pinterest" aria-hidden="true"></span>
+       <span class="sr-only">Pinterest</span>
+        </a>
+     {% endif %}
+     {% if pagedata.social.facebook %}
+       <a href="https://www.facebook.com/{{ pagedata.social.facebook }}" 
+       class="btn btn-social-icon btn-facebook" title="Follow us on Facebook">
+       <span class="fab fa-fw fa-facebook" aria-hidden="true"></span>
+       <span class="sr-only">Facebook</span>
+        </a>
+     {% endif %}
+     {% if pagedata.social.facebookurl %}
+       <a href="{{ pagedata.social.facebookurl }}" 
+       class="btn btn-social-icon btn-facebook" title="Follow us on Facebook">
+       <span class="fab fa-fw fa-facebook" aria-hidden="true"></span>
+       <span class="sr-only">Facebook</span>
+        </a>
+     {% endif %}
+     {% if pagedata.social.linktree %}
+       <a href="{{ pagedata.social.linktree }}" title="Follow us on Linktree">
+       <img src="/assets/img/Linktree-Symbol.png">
+        </a>
+     {% endif %}
+     {% if pagedata.social.bluesky %}
+       <a href="{{ pagedata.social.bluesky }}" title="Follow us on Bluesky">
+       <img src="/assets/img/bluesky.png">
+        </a>
+     {% endif %}
+     {% if pagedata.social.whatsapp %}
+       <a href="{{ pagedata.social.whatsapp }}" title="Follow us on Whatsapp">
+       <img src="/assets/img/whatsapp.png">
+        </a>
+     {% endif %}
+     </p>
+
+     <h2>Event Details</h2>
+      <p>{{pagedata.description}}</p>
+
+      {% if pagedata.officialwebsite %}
+      <p>The official website is: <a href="{{ pagedata.officialwebsite }}">{{ pagedata.officialwebsite }}</a></p>
+      {% endif %}
+
+      {% if pagedata.lunchcost %}
+        <p><b>Lunch:</b> {{ pagedata.lunchcost }}</p>
+      {% endif %}
+
+      {% if pagedata.eventhotel %}
+        <p><b>Event Hotel:</b></p>
+        <p>{{ pagedata.eventhotel }}</p>
+      {% endif %}
+
+      <p align="center">
+        {% if pagedata.eventbriteembed %}
+          {{ pagedata.eventbriteembed }}
+        {% else %}
+          {% if pagedata.registrationurl %}
+            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{pagedata.registrationurl}}" target="_blank" rel="noopener noreferrer">Register now</a>
+          {% else %}
+            Registration coming soon
+          {% endif %}
+        {% endif %}
+      </p>
+
+ 
+      <!-- Location for event -->
+      {% if pagedata.eventlocation %}
+      <h3><a name="location"></a>Location</h3>
+      <p>
+      The event is taking place at:<br/>
+      {{pagedata.eventlocation}}
+      </p>
+      {% endif %}
+      {% if pagedata.eventlocationurl %}
+        <p><a href="{{pagedata.eventlocationurl}}">{{pagedata.eventlocationurl}}</a></p>
+      {% endif %}
+      {% if pagedata.googlemapurl %}
+      <iframe src="{{pagedata.googlemapurl}}"" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <p>&nbsp;</p>
+     <!-- toc -->
+     <p align="center">
+      {% if pagedata.eventlocation %}
+      <a href="#location">Location</a> 
+      &#x25CF 
+      {% endif %}
+      <a href="#sponsor">Sponsors</a> 
+      &#x25CF 
+      {% if pagedata.usingrooms %}
+      <a href="#rooms">Rooms</a> 
+      &#x25CF 
+      {% endif %}
+      {% if pagedata.precons %}
+      <a href="#precon">Pre-cons</a> 
+      &#x25CF 
+      {% endif %}
+      <a href="#schedule">Schedule</a> 
+      &#x25CF 
+      <a href="#speakers">Speakers</a> 
+      &#x25CF 
+      <a href="#volunteer">Volunteers</a> 
+      &#x25CF 
+      <a href="#contact">Contact</a>
+      {% if pagedata.downloads %}
+        &#x25CF 
+        <a href="#downloads">Downloads</a> 
+      {% endif %}
+      {% if pagedata.downloads %}
+        &#x25CF 
+        <a href="#previous">Previous Events</a> 
+      {% endif %}
+      &#x25CF 
+      <a href="#sponsorship">Sponsorship Plans</a>
+    </p>
+
+      {% endif %}
+      {% if pagedata.parkingdesc %}
+        <h3><a name="parking"></a>Parking</h3>
+        <p>{{pagedata.parkingdesc}}</p>
+      {% endif %}
+
+      <!-- Code of Conduct -->
+      <h3>Code of Conduct</h3>
+      <p>{% if pagedata.cocurl %}
+            This event has its own <a href="{{ pagedata.cocurl }}">code of conduct</a> that all attendees are expected to follow. Please report violations to the <a href="#contact">organizers</a>.
+        {% else %}
+          {% if pagedata.coctext %}
+          {{ pagedata.coctext }}
+          {% else %}
+            There is a <a href="/coc/">code of conduct</a> for this event that all attendees are expected to follow. Please report violations to the <a href="#contact">organizers</a>
+           {% endif %}
+        {% endif %}
+        If you need to report a Code of Conduct violation, please contact the organizers and send a copy to <a href="mailto:coc@sqlsaturday.com">coc@sqlsaturday.com</a>
+      </p>
+
+      <!-- Data Privacy -->
+      <h3>Data Privacy</h3>
+      <p>
+      {% if pagedata.dataprivacy %}
+            {{ pagedata.dataprivacy }}
+      {% else %}
+          This event adheres to the generic <a href="/data/">data privacy</a> policy. Please be aware that by registering, you give permission for organizers to share data with sponsors. Sponsors are required to adhere to their own data privacy policy in using this data.
+      {% endif %}
+      </p>
+    </div>
+
+      <!-- Sponsors -->
+      <div class="container container-lg">
+      <h2 align="center"><A name="sponsor"></A>Please Visit Our Sponsors</h2>
+        <!-- Global sponsors -->
+        {% if pagedata.optInGlobalSponsor %}
+          <h3 align="center">Global Sponsor</h3>
+          <p align="center">
+          <a href="https://aka.ms/AMD_EPYC_RelationalDB" target="_blank" alt="Microsoft">
+             <img src="/assets/img/logos/MSFT-2305-AMD-MSFT logo lockups_preferred spacing_c-gray (002).png" height="321" width="1292">
+          </a><br/>
+        {% else %}
+          <p>&nbsp;</p>
+        {% endif %}
+        {% for sponsor in pagedata.sponsors %}
+          {% if sponsor.type %} <h3 align="center">{{ sponsor.type }}</h3> {% endif %}
+          <p align="center">
+            <a href="{{ sponsor.link }}" target="_blank" alt="{{ sponsor.alt }}">
+            {% if sponsor.image %}
+               <img src="{{ sponsor.image }}" {% if sponsor.height %} height="{{ sponsor.height }}" {% endif %} {% if sponsor.width %} width="{{ sponsor.width }}" {% endif %} {% if sponsor.alt %} alt="{{ sponsor.alt }}" {% endif %} >
+            {% else %}
+              {{ sponsor.name }}
+            {% endif %}                         
+          </a><br/>
+          {% if sponsor.textdesc %}
+            <br/>
+            {{ sponsor.textdesc }}
+            <br/>
+        {% endif %}                         
+    </p>
+        {% endfor %}
+        <p>
+           {% if pagedata.sponsorscontacturl %}
+             For sponsor information, follow <a href="{{pagedata.sponsorscontacturl}}">this link</a>.
+           {% else %}
+             {% if pagedata.sponsorplan %}
+               There are <a href="#sponsorship">sponsorship plans available.</a>
+             {% else %}
+               <p align="center"><a href="#contact">Contact the organizers</a> for information about sponsoring this event.</p>
+             {% endif %}                         
+           {% endif %}                         
+           </p>
+        <p>&nbsp;</p>
+      <!-- toc -->
+      <p align="center">
+        {% if pagedata.eventlocation %}
+        <a href="#location">Location</a> 
+        &#x25CF 
+        {% endif %}
+        <a href="#sponsor">Sponsors</a> 
+        &#x25CF 
+        {% if pagedata.usingrooms %}
+        <a href="#rooms">Rooms</a> 
+        &#x25CF 
+        {% endif %}
+        {% if pagedata.precons %}
+        <a href="#precon">Pre-cons</a> 
+        &#x25CF 
+        {% endif %}
+        <a href="#schedule">Schedule</a> 
+        &#x25CF 
+        <a href="#speakers">Speakers</a> 
+        &#x25CF 
+        <a href="#volunteer">Volunteers</a> 
+        &#x25CF 
+        <a href="#contact">Contact</a>
+        {% if pagedata.downloads %}
+          &#x25CF 
+          <a href="#downloads">Downloads</a> 
+        {% endif %}
+        {% if pagedata.downloads %}
+          &#x25CF 
+          <a href="#previous">Previous Events</a> 
+        {% endif %}
+        &#x25CF 
+        <a href="#sponsorship">Sponsorship Plans</a>
+      </p>
+
+      </div>
+
+      <!-- Precons -->
+      {% if pagedata.precons  %}
+      <div class="container container-md">
+      <h2 align="center"><A name="precon"></A>Precons</h2>
+      {% if pagedata.precondetail %}
+        {{pagedata.precondetail}}
+      {% else %}
+        <p style="text-align: center;">Precon information coming soon.</p>
+      {% endif %}
+      <p> &nbsp;</p>
+      <!-- toc -->
+      <p align="center">
+        {% if pagedata.eventlocation %}
+        <a href="#location">Location</a> 
+        &#x25CF 
+        {% endif %}
+        <a href="#sponsor">Sponsors</a> 
+        &#x25CF 
+        {% if pagedata.usingrooms %}
+        <a href="#rooms">Rooms</a> 
+        &#x25CF 
+        {% endif %}
+        {% if pagedata.precons %}
+        <a href="#precon">Pre-cons</a> 
+        &#x25CF 
+        {% endif %}
+        <a href="#schedule">Schedule</a> 
+        &#x25CF 
+        <a href="#speakers">Speakers</a> 
+        &#x25CF 
+        <a href="#volunteer">Volunteers</a> 
+        &#x25CF 
+        <a href="#contact">Contact</a>
+        {% if pagedata.downloads %}
+          &#x25CF 
+          <a href="#downloads">Downloads</a> 
+        {% endif %}
+        {% if pagedata.downloads %}
+          &#x25CF 
+          <a href="#previous">Previous Events</a> 
+        {% endif %}
+        &#x25CF 
+        <a href="#sponsorship">Sponsorship Plans</a>
+      </p>
+
+      </div>
+      {% endif %}
+
+      <!-- Rooms -->
+      {% if pagedata.usingrooms %}
+      <div class="container container-md">
+      <h2 align="center"><A name="rooms"></A>Rooms</h2>
+      {% if pagedata.join.description %}
+        <p> {{pagedata.join.description}}
+        </p>
+        <p style="text-align: center;">
+          {%- for room in pagedata.join.rooms -%}
+            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger mr-4" target="_blank" href="{{room.url}}">{{room.name}}</a><br/><br/>
+          {%- endfor %}
+        </p>
+        {% else %}
+        <p style="text-align: center;">The rooms are not available for this event.</p>
+      {% endif %}
+      <p> &nbsp;</p>
+      <!-- toc -->
+      <p align="center">
+        {% if pagedata.eventlocation %}
+        <a href="#location">Location</a> 
+        &#x25CF 
+        {% endif %}
+        <a href="#sponsor">Sponsors</a> 
+        &#x25CF 
+        {% if pagedata.usingrooms %}
+        <a href="#rooms">Rooms</a> 
+        &#x25CF 
+        {% endif %}
+        {% if pagedata.precons %}
+        <a href="#precon">Pre-cons</a> 
+        &#x25CF 
+        {% endif %}
+        <a href="#schedule">Schedule</a> 
+        &#x25CF 
+        <a href="#speakers">Speakers</a> 
+        &#x25CF 
+        <a href="#volunteer">Volunteers</a> 
+        &#x25CF 
+        <a href="#contact">Contact</a>
+        {% if pagedata.downloads %}
+          &#x25CF 
+          <a href="#downloads">Downloads</a> 
+        {% endif %}
+        {% if pagedata.downloads %}
+          &#x25CF 
+          <a href="#previous">Previous Events</a> 
+        {% endif %}
+        &#x25CF 
+        <a href="#sponsorship">Sponsorship Plans</a>
+      </p>
+
+      </div>
+      {% endif %}
+
+      <!-- Schedule -->
+      <div class="w-100 p-3">
+        {% if pagedata.scheduleheight %}
+            {% assign sessionizeheight = pagedata.scheduleheight %}
+        {% else %}
+            {% assign sessionizeheight = 1900 %}
+        {% endif %}
+        <h2 align="center"><A name="schedule"></A>Schedule</h2>
+          {% if pagedata.scheduleurl%}
+            {% if pagedata.schedulehtml %}
+               {{pagedata.schedulehtml}}
+            {% else %}
+               {% if pagedata.scheduletimezone %}
+                 <p>Please note the event is taking place in {{pagedata.scheduletimezone}}</p>
+               {% endif %}
+               <p>The schedule shown below is updated by Sessionize to match your computer's time zone setting.</p>
+               {% if pagedata.printscheduleurl%}
+                  <p>You can also view the <a href="{{pagedata.printscheduleurl}}" target="_blank">print schedule</a></p>
+               {% endif %}
+               <p>
+                 <iframe frameborder="0" STYLE="width: 100%;height:{{ sessionizeheight }}px" SRCDOC="<BODY><script type='text/javascript' src='{{pagedata.scheduleurl}}'></script></BODY>">
+                 </iframe>
+               </p>
+            {% endif %}
+         {% else %}
+            <p style="text-align: center;">The schedule has not been announced yet.</p>
+            {% if pagedata.callforspeakers == true %}
+              {% if CFSDate > TodayDate %}
+                <p style="text-align: center;">If you want to <a href="#speakers" class="js-scroll-trigger">submit your own session</a> you can still do so.</p>
+              {% endif %}
+            {% endif %}
+         {% endif %}
+           <p>&nbsp;</p>
+      <!-- toc -->
+      <p align="center">
+        {% if pagedata.eventlocation %}
+        <a href="#location">Location</a> 
+        &#x25CF 
+        {% endif %}
+        <a href="#sponsor">Sponsors</a> 
+        &#x25CF 
+        {% if pagedata.usingrooms %}
+        <a href="#rooms">Rooms</a> 
+        &#x25CF 
+        {% endif %}
+        {% if pagedata.precons %}
+        <a href="#precon">Pre-cons</a> 
+        &#x25CF 
+        {% endif %}
+        <a href="#schedule">Schedule</a> 
+        &#x25CF 
+        <a href="#speakers">Speakers</a> 
+        &#x25CF 
+        <a href="#volunteer">Volunteers</a> 
+        &#x25CF 
+        <a href="#contact">Contact</a>
+        {% if pagedata.downloads %}
+          &#x25CF 
+          <a href="#downloads">Downloads</a> 
+        {% endif %}
+        {% if pagedata.downloads %}
+          &#x25CF 
+          <a href="#previous">Previous Events</a> 
+        {% endif %}
+        &#x25CF 
+        <a href="#sponsorship">Sponsorship Plans</a>
+      </p>
+  
+      </div>
+
+
+      <!-- Speakers -->
+      {% assign CFSDate = pagedata.callforspeakersenddate | date: '%s' %}
+      <div id="speakers">
+        <div class="container container-lg">
+        <h2 align="center"><A name="speakers"></A>Speakers</h2>
+        <p align="center">{{pagedata.speakertext}}</p>
+        </p>
+        {% if pagedata.callforspeakers == false %}
+          <p align="center">There is no call for speakers.
+          </p>
+        {% else %}
+         {% if pagedata.callforspeakersurl %}
+          {% if CFSDate > TodayDate %}
+              <p align="center">You can submit a session by clicking the link below. The call for speakers ends on {{ pagedata.callforspeakersenddate }}
+              </p>
+              <p align="center">
+              <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{pagedata.callforspeakersurl}}" target="_blank" rel="noopener noreferrer">Submit your session</a>
+              </p>
+              {% if pagedata.submittedsessionurl %}
+                <h3>Current Submitted Sessions</h3>
+                <p>Below is a list of submitted sessions by all speakers.</p>
+                <p align="left"><script type="text/javascript" src="{{pagedata.submittedsessionurl}}"></script></p>
+              {% endif %}
+          {% else %}
+              <p align="center">The call for speakers is now closed.</p>
+          {% endif %}
+         {% else %}
+          <p align="center">The call for speakers is not open.</p>
+         {% endif %}
+       {% endif %}                         
+       {% if pagedata.speakerlisturl %}
+       <p>Here is a list of speakers for this event:</p>
+        <script type="text/javascript" src="{{pagedata.speakerlisturl}}"></script>
+     {% endif %}
+     <p>&nbsp;</p>
+      <!-- toc -->
+      <p align="center">
+        {% if pagedata.eventlocation %}
+        <a href="#location">Location</a> 
+        &#x25CF 
+        {% endif %}
+        <a href="#sponsor">Sponsors</a> 
+        &#x25CF 
+        {% if pagedata.usingrooms %}
+        <a href="#rooms">Rooms</a> 
+        &#x25CF 
+        {% endif %}
+        {% if pagedata.precons %}
+        <a href="#precon">Pre-cons</a> 
+        &#x25CF 
+        {% endif %}
+        <a href="#schedule">Schedule</a> 
+        &#x25CF 
+        <a href="#speakers">Speakers</a> 
+        &#x25CF 
+        <a href="#volunteer">Volunteers</a> 
+        &#x25CF 
+        <a href="#contact">Contact</a>
+        {% if pagedata.downloads %}
+          &#x25CF 
+          <a href="#downloads">Downloads</a> 
+        {% endif %}
+        {% if pagedata.downloads %}
+          &#x25CF 
+          <a href="#previous">Previous Events</a> 
+        {% endif %}
+        &#x25CF 
+        <a href="#sponsorship">Sponsorship Plans</a>
+      </p>
+
+      </div>
+    </div>
+  
+      <!-- Volunteers -->
+      <div id="volunters">
+      <div class="container container-md">
+      <h2 align="center"><A name="volunteer"></A>Volunteers</h2>
+        {% if pagedata.volunteers.description %}
+        <p>
+         {{pagedata.volunteers.description}}
+       </p>
+       {% endif %}                         
+        {% if pagedata.volunteers.volunteerurl %}
+          <p align="center">
+            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{pagedata.volunteers.volunteerurl}}" target="_blank" rel="noopener noreferrer">Click to volunteer</a>
+          </p>
+          {% endif %}                         
+        <p>&nbsp;</p>
+      <!-- toc -->
+      <p align="center">
+        {% if pagedata.eventlocation %}
+        <a href="#location">Location</a> 
+        &#x25CF 
+        {% endif %}
+        <a href="#sponsor">Sponsors</a> 
+        &#x25CF 
+        {% if pagedata.usingrooms %}
+        <a href="#rooms">Rooms</a> 
+        &#x25CF 
+        {% endif %}
+        {% if pagedata.precons %}
+        <a href="#precon">Pre-cons</a> 
+        &#x25CF 
+        {% endif %}
+        <a href="#schedule">Schedule</a> 
+        &#x25CF 
+        <a href="#speakers">Speakers</a> 
+        &#x25CF 
+        <a href="#volunteer">Volunteers</a> 
+        &#x25CF 
+        <a href="#contact">Contact</a>
+        {% if pagedata.downloads %}
+          &#x25CF 
+          <a href="#downloads">Downloads</a> 
+        {% endif %}
+        {% if pagedata.downloads %}
+          &#x25CF 
+          <a href="#previous">Previous Events</a> 
+        {% endif %}
+        &#x25CF 
+        <a href="#sponsorship">Sponsorship Plans</a>
+      </p>
+
+      </div>
+      </div>
+
+      <!-- Contact -->
+          <div class="container">
+            <h2 align="center"><A name="contact"></A>Contact the Organizers</h2>
+            <p>The organizers of this event are: 
+              <ul>
+              {% for organizer in pagedata.organizers %}   
+                <li>{{ organizer.name }}
+                  <ul>
+                  {% if organizer.email %}
+                  <li><a href="mailto:{{organizer.email}}">email</a></li>
+                  {% endif %}
+                  {% if organizer.twitter %}
+                  <li><a href="https://www.twitter.com/{{organizer.twitter}}">@{{organizer.twitter}}</a></li>
+                  {% endif %}
+                  {% if organizer.url %}
+                  <li><a href="{{organizer.url}}">{{organizer.url}}</a></li>
+                  {% endif %}
+                </ul>
+                </li>
+              {% endfor %}
+              </ul>
+            </p>
+            {% if pagedata.organizers.twitter %}
+            <p>Twitter: <a href="https://www.twitter.com/{{ pagedata.organizers.twitter }}">@{{ pagedata.organizers.twitter }}</a></p>
+            {% endif %}
+            <p>&nbsp;</p>
+      <!-- toc -->
+      <p align="center">
+        {% if pagedata.eventlocation %}
+        <a href="#location">Location</a> 
+        &#x25CF 
+        {% endif %}
+        <a href="#sponsor">Sponsors</a> 
+        &#x25CF 
+        {% if pagedata.usingrooms %}
+        <a href="#rooms">Rooms</a> 
+        &#x25CF 
+        {% endif %}
+        {% if pagedata.precons %}
+        <a href="#precon">Pre-cons</a> 
+        &#x25CF 
+        {% endif %}
+        <a href="#schedule">Schedule</a> 
+        &#x25CF 
+        <a href="#speakers">Speakers</a> 
+        &#x25CF 
+        <a href="#volunteer">Volunteers</a> 
+        &#x25CF 
+        <a href="#contact">Contact</a>
+        {% if pagedata.downloads %}
+          &#x25CF 
+          <a href="#downloads">Downloads</a> 
+        {% endif %}
+        {% if pagedata.downloads %}
+          &#x25CF 
+          <a href="#previous">Previous Events</a> 
+        {% endif %}
+        &#x25CF 
+        <a href="#sponsorship">Sponsorship Plans</a>
+      </p>
+
+            </div>
+
+      <!-- Downloads -->
+      {% if pagedata.downloads  %}
+      <div class="container container-md">
+      <h2 align="center"><A name="downloads"></A>Downloads</h2>
+      <p>Here are the downloads that are available for this event:</p>
+      <ul>
+        {% for item in pagedata.downloads %}   
+        <li><a href="/assets/event/{{pagedata.eventnumber}}/{{ item.url }}">{{ item.name }}</a></li>
+      {% endfor %}
+      </ul>
+      <p> &nbsp;</p>
+      <!-- toc -->
+      <p align="center">
+        {% if pagedata.eventlocation %}
+        <a href="#location">Location</a> 
+        &#x25CF 
+        {% endif %}
+        <a href="#sponsor">Sponsors</a> 
+        &#x25CF 
+        {% if pagedata.usingrooms %}
+        <a href="#rooms">Rooms</a> 
+        &#x25CF 
+        {% endif %}
+        {% if pagedata.precons %}
+        <a href="#precon">Pre-cons</a> 
+        &#x25CF 
+        {% endif %}
+        <a href="#schedule">Schedule</a> 
+        &#x25CF 
+        <a href="#speakers">Speakers</a> 
+        &#x25CF 
+        <a href="#volunteer">Volunteers</a> 
+        &#x25CF 
+        <a href="#contact">Contact</a>
+        {% if pagedata.downloads %}
+          &#x25CF 
+          <a href="#downloads">Downloads</a> 
+        {% endif %}
+        {% if pagedata.downloads %}
+          &#x25CF 
+          <a href="#previous">Previous Events</a> 
+        {% endif %}
+        &#x25CF 
+        <a href="#sponsorship">Sponsorship Plans</a>
+      </p>
+
+      </div>
+      {% endif %}
+
+      <!-- Previous Events -->
+      {% if pagedata.primarytag  %}
+      <div class="container container-md">
+      <h2 align="center"><A name="previous"></A>Previous Events</h2>
+      <p>You can see a list of previous events for this location <a href="https://sqlsaturday.com/tags/#{{pagedata.primarytag}}">here</a>
+      <p> &nbsp;</p>
+      <!-- toc -->
+      <p align="center">
+        {% if pagedata.eventlocation %}
+        <a href="#location">Location</a> 
+        &#x25CF 
+        {% endif %}
+        <a href="#sponsor">Sponsors</a> 
+        &#x25CF 
+        {% if pagedata.usingrooms %}
+        <a href="#rooms">Rooms</a> 
+        &#x25CF 
+        {% endif %}
+        {% if pagedata.precons %}
+        <a href="#precon">Pre-cons</a> 
+        &#x25CF 
+        {% endif %}
+        <a href="#schedule">Schedule</a> 
+        &#x25CF 
+        <a href="#speakers">Speakers</a> 
+        &#x25CF 
+        <a href="#volunteer">Volunteers</a> 
+        &#x25CF 
+        <a href="#contact">Contact</a>
+        {% if pagedata.downloads %}
+          &#x25CF 
+          <a href="#downloads">Downloads</a> 
+        {% endif %}
+        {% if pagedata.downloads %}
+          &#x25CF 
+          <a href="#previous">Previous Events</a> 
+        {% endif %}
+        &#x25CF 
+        <a href="#sponsorship">Sponsorship Plans</a>
+      </p>
+
+      </div>
+      {% endif %}
+
+      <!-- Sponsorship plan -->
+      <div class="container container-lg">
+        <h2 align="center"><A name="sponsorship"></A>Sponsorship Plan</h2>
+        {% if pagedata.sponsorplan %}
+          {{ pagedata.sponsorplan }}
+        {% endif %}
+      </div>
+
+      <p>&nbsp;</p>
+
+        <br/>
+        <br/>
+      {% if page.tags.size > 0 %}
+        <div class="blog-tags">
+          <span>Tags:</span>
+          {% for tag in page.tags %}
+            <a href="{{ '/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
+          {% endfor %}
+        <br/><br/>
+        </div>
+      {% endif %}
+
+      <br/>
+      {% if page.after-content %}
+        <div class="after-content">
+          {% for file in page.after-content %}
+            {% include {{ file }} %}
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      {% if page.social-share %}
+      <br />
+        {% include social-share.html %}
+        <br/>
+      {% endif %}
+      <br />
+
+      <ul class="pagination blog-pager">
+        {% if page.previous.url %}
+        <li class="page-item previous">
+          <a class="page-link" href="{{ page.previous.url | relative_url }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Event</a>
+        </li>
+        {% endif %}
+        {% if page.next.url %}
+        <li class="page-item next">
+          <a class="page-link" href="{{ page.next.url | relative_url }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Event &rarr;</a>
+        </li>
+        {% endif %}
+      </ul>
+      {% include comments.html %}

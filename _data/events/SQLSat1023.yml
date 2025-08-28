@@ -1,0 +1,65 @@
+name: "SQL Saturday Colorado Springs 2022"
+primarytag: "Colorado%20%Springs"
+logo: 
+logocredit: 
+date: 2022-03-19 10:00:00 -0000
+virtual: false
+physical: true
+hybrid: false
+description: |
+    SQL Saturday Colorado Springs 2022 is a one day free conference for data professionals. Come join us and learn from experienced data professionals in Colorado.
+  
+
+eventlocation: |
+    Library 21c <br/>
+    1175 Chapel Hills Dr<br/>
+    Colorado Springs, CO 80920
+
+eventlocationurl: https://ppld.org/library-21c
+
+officialwebsite: 
+registrationurl: https://www.eventbrite.com/e/sql-saturday-colorado-springs-tickets-247770376867
+capacity: 
+googlemapurl: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12410.845853789437!2d-104.7931179!3d38.9534196!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbeb166fbf3d2d354!2sPikes%20Peak%20Library%20District%20-%20Library%2021c!5e0!3m2!1sen!2sus!4v1642527869264!5m2!1sen!2sus
+scheduleurl: https://sessionize.com/api/v2/73h2no98/view/GridSmart
+scheduletimezone: Mountain Daylight Savings time UTC -5
+
+eventcountdown: false
+
+countdownscript:
+ 
+speakertext: The call for speakers is closed.
+speakerlisturl: https://sessionize.com/api/v2/73h2no98/view/SpeakerWall
+callforspeakersurl: ""
+callforspeakers:  
+callforspeakersenddate: 
+
+organizers:
+  - name: Springs SQL
+    twitter: springssql
+    email: "springssql@gmail.com"
+    url: https://springssql.org/
+
+volunteers:
+  description: "Volunteers are very important to a successful event. Please contact the organizer to volunteer."
+  volunteerurl:
+
+social:
+  twitter: springssql
+  youtube: 
+  linkedin: 
+  instagram: 
+  tiktok: 
+  pinterest: 
+
+sponsorscontacturl: 
+sponsors:
+  - link: https://www.rubrik.com
+    image: /assets/img/logos/Rubrik_horizontal_RGB_logos-white.png
+  - link: https://www.cozyroc.com
+    image: /assets/img/logos/cozyroc-big.png
+  - link: https://www.red-gate.com/
+    image: /assets/img/logos/redgate-115x26.jpg
+
+
+
