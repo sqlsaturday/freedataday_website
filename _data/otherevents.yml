@@ -1,0 +1,28 @@
+events:
+- title: "Data Saturday #71 - Columbus"
+  date: August 16, 2025
+  url: https://datasaturdays.com/Event/20250816-datasaturday0071
+  thumb: /assets/img/logos/datasaturday_logo.png
+- title: "Data Saturday #67 - Oslo"
+  date: August 30, 2025
+  url: https://datasaturdays.com/Event/20250830-datasaturday0067
+  thumb: /assets/img/logos/datasaturday_logo.png
+- title: "Data Saturday #68 - Gothenburg 2025"
+  date: September 06, 2025
+  url: https://datasaturdays.com/Event/20250906-datasaturday0068
+  thumb: /assets/img/logos/datasaturday_logo.png
+- title: "VSLive! San Diego 2025"
+  date: Sept 8-12, 2025
+  url: https://vslive.com/events/san-diego-2025/home.aspx
+  thumb: /assets/img/logos/vslivelogo.png
+- title: "PASS Data Community Summit 2025"
+  date: November 17-21, 2025
+  url: https://passdatacommunitysummit.com/
+  thumb: /assets/img/logos/datacommsummit.png
+- title: "Live!360 Orlando 2025"
+  date: Nov 16-21, 2025
+  url: https://live360events.com/events/orlando-2025/home.aspx
+  thumb: /assets/img/logos/vslivelogo.png
+- title: "Data Saturday #76 - Chicago"
+  date: Mar 14, 2026
+  url: https://datasaturdaychicago.com/

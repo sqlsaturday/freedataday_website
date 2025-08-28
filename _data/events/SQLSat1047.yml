@@ -1,0 +1,119 @@
+name: "SQL Saturday Orlando 2023"
+primarytag: Orlando
+logo: 
+logocredit: 
+date: 2023-10-07 08:00:01 -0000
+virtual: false
+physical: true
+hybrid: false
+description: | 
+    <p><b>Orlando's 16th Annual SQL Saturday</b> is a free one-day training event for IT professionals and students interested in the Microsoft data platform (SQL Server, PowerBI, SSIS, and much more). Free registration is required, you can opt-in for lunch or bring your own, whatever works for you! This year we will have five tracks containing five one hour sessions, plus three sponsored sessions during the lunch break.</p>
+
+    <p>We're also hosting our annual Student to IT Pro Seminar, a block of four 30 minute presentations that start at 9 am that are designed for students attending Seminole State. Students who attend will get extra credit (see your professor for details) and are welcome to stay for the rest of the day and attend any of our data centric presentations.</p>
+
+    
+
+eventlocation: |
+    Seminole State College<br>
+    100 Weldon Blvd<br>
+    Sanford, Florida 32746 USA<br>
+
+eventlocationurl: 
+
+officialwebsite: https://sqlsaturday.com/
+registrationurl: https://www.eventbrite.com/e/sqlsaturday-orlando-2023-tickets-643354489597
+capacity: 400
+googlemapurl: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3498.148357166833!2d-81.30675408491489!3d28.744987182373595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e76d6db16e6dbf%3A0xbeced6c92cb1cf98!2sSeminole%20State%20College%20Student%20Center!5e0!3m2!1sen!2sus!4v1654876110093!5m2!1sen!2sus
+precons: true
+precondetail: |
+    <p>Pre-Cons will be held on Friday Oct 6th.</p>
+    <a href="https://www.eventbrite.com/e/pre-con-sqlsaturday-orlando-2023-tickets-690824102487"><h1>Introduction to Microsoft Fabric for the Data Professional - Bradley Ball, Buck Woody, Josh Luedeman & Daniel Taylor</h1></a>
+    <a href="https://www.eventbrite.com/e/pre-con-sqlsaturday-orlando-2023-tickets-690824102487"><h3>Click Here To Register</h3></a>
+    <h3>Session Details:</h3>
+    <p>Join us for a full day of exploration into Microsoft Fabric, the revolutionary Software as a Service (SaaS) product that’s changing the game in Business Intelligence and Modern Analytics. For the last 3 years, Microsoft has been building this groundbreaking technology, which offers the ability to ingest and link to existing data without duplication. With Azure Synapse Data Engineering, Data Factory, Data Science, Data Warehousing, Realtime Analytics, and Power BI all at your fingertips, the possibilities are endless. In this pre-conference event, we’ll guide you through a full build scenario, showing you how to link existing data, and utilize OneLake. Join us and discover the power of Microsoft Fabric!</p>
+    <h3>Speakers:</h3>
+    <p><b>Bradley Ball, Microsoft - Sr. FastTrack Azure Engineer </b> Bradley Ball is a Sr. FastTrack Azure Engineer on the Microsoft CXP Product Group. He is a current Microsoft MVP Reconnect member and former MVP. Bradley spent 8 years working as a Defense contractor for clients such as the U.S. Army and The Executive Office of the President of the United States, was the Data Platform Practice Manager for Pragmatic Works Consulting, and a Sr. Consultant for Microsoft Premier Support for Developers. He has presented at many SQL Saturdays, for PASS SSUG’s across the US from California to Puerto Rico to New Hampshire, SQL Rally, DevConnections, SQLBits 2015, TechReady 24, SQL Live 360 2011-2019, SQL Intersections 2019 - 2021, & the PASS Summit 2011-2015. He wrote Chapter 14 Page & Row Compression for PRO SQL Server 2012 Best Practices, he hosts the Tales from the Field weekly Azure Data Community Round table and technical videos on https://www.youtube.com/@Tales-from-the-Field with his Azure FastTrack PG colleagues, and he can be found blogging on http://www.sqlballs.com about anything else that interests him. @sqlballs | linkedin.com/in/sqlballs/ | sqlballs.com (blog)</p>
+    <p><b>Buck Woody, Microsoft - Applied Data Scientist </b> Buck Woody is an Applied Data Scientist working on the Azure Data Services team at Microsoft, and uses data and technology to solve business and science problems. With over 39 years of professional and practical experience in computer technology, he is also a popular speaker at conferences around the world; author of over 700 articles and nine books on databases, machine learning, and R, he also sits on various Data Science Boards at two US Universities and specializes in advanced data analysis techniques. He is passionate about mentoring and growing the next generation of data professionals. @BuckWoodyMSFT | linkedin.com/in/buckwoody/ | buckwoody.wordpress.com (blog)</p>
+    <p><b>Daniel Taylor, Microsoft - Sr. Service Engineer </b> I have presented a pre-con on Azure Dedicated Pools at SQL Saturday Jacksonville and was a speaker at many SQL Saturday events. My consulting role at Pragmatic Works provided me an opportunity to present the Airlift Dedicated Pool workshop to a large audience. Outside of public speaking engagements, my role within Microsoft has provided me with the opportunity to speak with large groups about the benefits of migrating to Azure, as well as, the capabilities of SQL Server on-premises and in the cloud. My passion these days is helping folks modernize within Azure utilizing one of our many PaaS solutions, as well as, the out of the box SQL Server product. @DBABullDog | linkedin.com/in/danieltaylor3/</p>
+    <p><b>Josh Luedeman, Microsoft - Principal FastTrack Engineer </b> Josh is a Principal Engineer with Azure Engineering's CXP team at Microsoft, focusing on Big Data, Analytics, and Cloud Architecture. He is a regular speaker at Professional Association of SQL Server(PASS) events, Code on the Beach, the PASS Summit, Microsoft Ignite, and other IT conferences. He has worked in IT for over 10 years and currently works with customers in industries like Higher Education, Consulting, Manufacturing, and Software Development to help them migrate their workloads to the Azure cloud. @joshluedeman | linkedin.com/in/joshluedeman/ | joshluedeman.com (blog) </p>    
+
+scheduleurl: https://sessionize.com/api/v2/c5rshjf3/view/GridSmart?format=Embed_Styled_Html&isDark=False
+scheduletimezone: Eastern Daylight Savings time UTC -5
+
+eventcountdown: true
+
+countdownscript: |
+    <script src="https://cdn.logwork.com/widget/countdown.js"></script><a href="https://logwork.com/countdown-71sb" class="countdown-timer" data-timezone="America/New_York" data-date="2023-10-07 08:00">Countdown</a>
+ 
+speakertext: The call for speakers is closed.
+speakerlisturl: https://sessionize.com/api/v2/c5rshjf3/view/SpeakerWall
+submittedsessionurl: https://sessionize.com/sqlsaturday-orlando-2023/
+callforspeakers:  false
+callforspeakersenddate: 2023-07-20 11:59:59 -0000
+
+organizers:
+  - name: SQLOrlando
+    twitter: sqlorlando
+    email: "webmaster@sqlorlando.org"
+    url: https://sqlorlando.org/
+
+volunteers:
+  description: "Volunteers are very important to a successful event. Please contact the organizer to volunteer."
+  volunteerurl:
+
+social:
+  twitter: sqlsatorlando
+  youtube: 
+  linkedin: https://www.linkedin.com/groups/12105573/
+  instagram: 
+  tiktok: 
+  pinterest: 
+  meetup: https://www.meetup.com/SQLOrlando/
+
+sponsorscontacturl: https://sqlsaturday.com/2023-10-07-sqlsaturday1047/#sponsorship
+sponsors:
+  - link: https://www.microsoft.com/
+    image: /assets/img/logos/Microsoft-logo_rgb_c-gray.png  
+  - link:  https://www.cozyroc.com
+    image: /assets/img/logos/cozyroc-big.png
+  - link: https://www.quest.com/solutions/sql-server/ 
+    image: /assets/img/logos/Quest-logo-800px.jpg
+  - link: https://tintri.com/
+    image: /assets/img/logos/tintri_corporate_logo_res.png
+  - link: https://www.idera.com/
+    image: /assets/img/logos/IDERA938x142.jpg
+  - link: https://sqlgrease.com/
+    image: /assets/img/logos/sqlgrease.png
+  - link:  https://www.red-gate.com
+    image: /assets/img/logos/redgate2023.png.jpg
+  - link:  https://www.oreilly.com
+    image: /assets/img/logos/OReilly_Logo Large.png
+
+sponsorplan:
+    <h1><a name="sponsorship">Sponsorship Plan</a></h1>
+    <p>SQLSaturday Orlando will be held on the campus of Seminole State College on October 7th, 2023. This year we plan to deliver five tracks with each having five one hour presentations and a final end of day gathering for giving away prizes. Our normal attendance is in the range of 250-275, but based on other recent events we are forecasting 125-150 attendees (250+ registrations).</p>
+    <h2 id="sponsorship-levels">Sponsorship Levels</h2>
+    <p>All sponsors will be listed on our SQLSaturday event page and announced to attendees during the event. All sponsorship fees must be paid in advance of the event. Attendees receive a raffle ticket for each sponsor at the Brand Builder or higher level, we encourage sponsors to bring one or more prizes valued at at least $100 and display it prominently at your table. The raffle tickets will have a QR code that contains the attendee info. We recommend purchasing a <a href="https://www.amazon.com/gp/product/B07D799ZDD/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&amp;psc=1">2D compatible scanner</a> as they are much faster than using a phone. If you want to discuss an option or idea not listed below, please contact us, we will do our best to work with you!</p>
+    <ul>
+      <li>Exhibitor ($1000). The ideal sponsor level for those that want to be on site to interact with our attendees. Exhibitors will be provided with a table and two chairs in the first floor foyer area. <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9L9B4AEW4GDV8">Sign up to the an Exhibitor!</a></li>
+      <li>Brand Builder ($500). For sponsors who are not able to attend in person but want to support our event and build brand awareness. We will set up a raffle box for you if you provide a prize (gift cards are easy, but it’s up to you!) and will forward you the scans of the tickets via email after the event. <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=X7B7XDBDTZPGC">Sign up to be a Brand Builder!</a></li>
+      <li>Corporate Supporter ($250). For local companies who want to support our event or engage in local brand building we include your logo on our event pages and let all our attendees know how much we appreciate your support! We are a 501c(3). <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XZKDBC37BQVTA">Sign up to be a Corporate Supporter!</a></li>
+    </ul>
+    <h3 id="add-on-sponsorship-options">Add-On Sponsorship Options</h3>
+    <p>The following add-on options are available. Must be bundled with a sponsorship above. Please contact us if you want to sign up for one of these and we can send you a single payment link.</p>
+    <ul>
+      <li>Lanyards & Badge Holders. $250 + cost of the materials (or you provide)</li>
+      <li>Speaker shirts $1500). Our logo on the front, your logo on the sleeves, nicely embroidered.</li>
+      <li>Volunteer Party ($1000). We host an event for the speakers, sponsors, and main volunteers the Friday night prior to the event from 7-9 pm.</li>
+      <li>Breakfast ($1000). Coffee, donuts, and breakfast bars with your signage (you can even serve the donuts if you want!)</li>
+      <li>Lunch Sessions with Sponsor Topic &amp; Speaker ($500). We have three slots for lunch sessions this year.</li>
+      <li>Afternoon Snack ($500). Frozen custard!</li>
+      <li>After Party ($500). This would run from 5-7 pm and usually includes soft drinks and appetizers, but we can customize this if you want to do more.</li>
+    </ul>
+    <h2 id="logistics">Logistics</h2>
+    <ul>
+      <li>Parking is free</li>
+      <li>Wifi is available but we recommend you have a fallback plan if you rely it for demos</li>
+      <li>We will be setting up for the event beginning at 7 am and ask all sponsors to have their tables fully ready no later than 8 am</li>
+      <li>Our recommended hotel is the <a href="https://www.marriott.com/en-us/hotels/mcoml-orlando-marriott-lake-mary/overview/">Orlando Marriot Lake Mary</a></li>
+    </ul>

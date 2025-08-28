@@ -1,0 +1,114 @@
+name: "SQL Saturday Austin 2023"
+primarytag: "Austin"
+logo: 
+logocredit: 
+date: 2023-02-25 08:00:00 -0000
+virtual: false
+physical: true
+hybrid: false
+description: |
+    <p>SQL Saturday Austin is a free one-day conference for data professionals.</p>
+
+eventlocation: |
+  Microsoft<br/>
+  Quarry Oaks II<br/>
+  10900-II, Stonelake Blvd Suite 225<br/>
+  Austin, TX 78759
+
+eventlocationurl: https://www.google.com/maps/place/Microsoft+Corporation/@30.400579,-97.7368883,17z/data=!4m12!1m6!3m5!1s0x8644cc7b124596ad:0x1a540c719cf65065!2sMicrosoft+Corporation!8m2!3d30.4005744!4d-97.7346943!3m4!1s0x8644cc7b124596ad:0x1a540c719cf65065!8m2!3d30.4005744!4d-97.7346943
+
+officialwebsite: 
+registrationurl: https://www.eventbrite.com/cc/sql-saturday-austin-tx-1043-1532229
+capacity: 150
+googlemapurl: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13765.010392513923!2d-97.7346943!3d30.4005744!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1a540c719cf65065!2sMicrosoft%20Corporation!5e0!3m2!1sen!2sus!4v1671141951795!5m2!1sen!2sus"
+precons: true
+precondetail: |
+    <p>There will be one pre conference sessions available on Friday, February 24, 2023.</p>
+    <p><b>** COST is ONLY $50 per attendee</b></p>
+    <p><b>Note: Precon Location: Microsoft Office Austin - Quarry Oaks II, 10900-II, Stonelake Blvd Suite 225, Austin, TX 78759</b></p>
+    <ul>
+      <li><a href="https://www.eventbrite.com/e/sql-server-2022-workshop-all-day-with-bob-ward-tickets-506753953717" target="_blank" rel="noopener noreferrer">SQL Server 2022 All-Day Workshop with Bob Ward</li>
+    </ul>
+scheduleurl: https://sessionize.com/api/v2/yso0gwjn/view/GridSmart
+scheduletimezone: Central Standard time UTC -6
+lunchcost: 
+eventhotel: 
+
+eventcountdown: false
+
+countdownscript:
+ 
+speakertext: The call for speakers is closed.
+speakerlisturl: https://sessionize.com/api/v2/yso0gwjn/view/SpeakerWall
+callforspeakersurl: https://sessionize.com/sql-saturday-austin-2023
+callforspeakers: false
+callforspeakersenddate: 16 Jan 2023
+
+organizers:
+  - name: Austin SQL Server User Group
+    twitter: 
+    email: 
+    url: https://www.meetup.com/austin-sql-server-user-group/
+  - name: John Sterrett
+    twitter: johnsterrett
+    email: John@procuresql.com
+    url: 
+  - name: Jay Falck
+    twitter: jayfalck
+    email: jay@unicorncomputing.com
+    url: https://www.meetup.com/austin-sql-server-user-group/
+
+volunteers:
+  description: "Volunteers are very important to a successful event. Please contact the organizer to volunteer."
+  volunteerurl:
+
+social:
+  twitter: 
+  youtube: 
+  linkedin: 
+  instagram: 
+  tiktok: 
+  pinterest: 
+
+sponsorscontacturl: 
+sponsors: 
+  - link: https://www.microsoft.com 
+    type: Platinum
+    image: /assets/img/logos/Microsoft-logo_rgb_c-gray.png
+    width: 948
+    height: 255 
+  - link: https://austinazure.com 
+    type: Platinum
+    image: /assets/img/logos/AustinAzure.png
+    width: 500
+    height: 200   
+  - link: https://www.solarwinds.com/solutions/sql-diagnostic-solutions 
+    type: Platinum
+    image: /assets/img/logos/Solarwinds.png
+    width: 500
+    height: 200  
+  - link: https://www.quest.com/solutions/sql-server/ 
+    type: Exhibitor
+    image: /assets/img/logos/Quest-logo-800px.jpg
+    width: 800
+    height: 220   
+  - link: https://dbeaver.com/ 
+    type: Exhibitor
+    image: /assets/img/logos/DBeaver.png
+    width: 585
+    height: 227 
+  - link: https://us.sios.com/solutions/sql-server-high-availability/ 
+    type: Speaker Dinner Sponsor
+    image: /assets/img/logos/sioslogo.jpg
+    width: 800
+    height: 220 
+
+sponsorplan: |
+  <p>All sponsors will be listed on our SQLSaturday event page and announced to attendees during the event. All sponsorship fees must be paid in advance of the event. Attendees receive a raffle ticket for each sponsor at the Brand Builder or higher level, we encourage sponsors to bring one or more prizes valued at at least $100 and display it prominently at your table. If you want to discuss an option or idea not listed below, please contact us, we will do our best to work with you!</p>
+  <ul>
+    <li><b>Platinum Exhibitor ($1500)</b>. This is the ideal sponsorship level for companies that want to have the most interaction with attendees and speakers. You will get the opportunity to join in the speaker's dinner to network one on one with speakers and influencers, host a lunch session (3 max), receive everything included in the Exhibitor sponsorship. Sign up to be a Platinum Exhibitor.</li>
+    <li><b>Exhibitor ($1000)</b>. The ideal sponsor level for those that want to be on site to interact with our attendees. Exhibitors will be provided with a table and two chairs as needed in the foyer area. Sign up to be an Exhibitor!</li>
+    <li><b>Brand Builder ($500)</b>. For sponsors who are not able to attend in person but want to support our event and build brand awareness. We will set up a raffle box for you if you provide a prize (gift cards are easy, but it’s up to you!) and will forward you the scans of the tickets via email after the event. Sign up to be a Brand Builder!</li>
+  </ul>
+  <p>Please contact John Sterrett (<a href="mailto:John@ProcureSQL.com">John @ ProcureSQL dot com</a>) for any sponsorship inquires or questions.</p>
+

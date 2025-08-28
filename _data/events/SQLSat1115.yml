@@ -1,0 +1,119 @@
+name: "SQL Saturday Orange County (#1115)"
+primarytag: "Los%20%Angeles"
+logo: 
+logocredit: 
+date: 2025-05-03 08:00:00 -0000
+virtual: false
+physical: true
+hybrid: false
+description: |
+    <p>SQL Saturday OC is a FREE training event for IT data professionals. This event offers high-quality technical training on a variety of data-related topics such as:</p>
+    <ul>
+    <li>Data analytics,</li>
+    <li>SQL and No-SQL,</li>
+    <li>Database Administration,</li>
+    <li>DevOps,</li>
+    <li>Development,</li>
+    <li>Microsoft Azure,</li>
+    <li>Amazon Web Services,</li>
+    <li>Google Cloud Platform,</li>
+    <li>Databricks,</li>
+    <li>Data Science, and Machine Learning,</li>
+    <li>Business Intelligence and Analytics,</li>
+    <li>Women in Technology,</li>
+    <li>Personal Branding,</li>
+    <li>... and more</li>
+    </ul>
+    <p>This is a great opportunity for all data professionals or students to engage with their peers and learn from Microsoft MVPs and other local and international speakers, not to mention the great networking opportunities that this in-person event will offer. Don't forget to inform your friends and colleagues about the event!</p>
+
+officialwebsite:  https://datadriventechnologies.org/sql-saturday-in-orange-county/ 
+eventlocation: |
+  20 Enterprise,<br>
+  Aliso Viejo, California, United States
+
+parkingdesc: |
+  <p>Please park in the free parking structure</p>
+
+precons: true
+precondetail: |
+    <h2>From Microsoft Power BI to Microsoft Fabric by Armando Lacerda</h2>
+    <p>Parking is FREE.<br/>
+    Lunch included and will be provided by Mendocino Farms</p>
+    <p><b>All-day training info:</b></p>
+    -	Power BI life-cycle review
+    -	Keeping the same routine in Fabric
+    -	New tools replacing Power Query (Transform button)
+    -	Hands-on DataFlow Gen2
+    -	Hands-on Lakehouse
+    -	Hands-On Warehouse
+    -	The new semantic model
+    -	Hands-on semantic model with direct lake
+    - The report creation experience
+    - Hands-on with report creation in the browser with CoPilot
+    -	Hands-on with report creation with Power BI Desktop
+    </p>
+    <p><b>Speaker Info:</b><br/>
+    Cloud architect and engineer focused on data platform. Speaker, trainer, coder.</p>
+    <p>With over 35 years in the computing arena Armando has been focused on data platform solutions around Microsoft Azure and helped many companies to migrate their systems to the cloud.</p>
+    <p>Armando has a passion for teaching and community engagement and has been certified as a Microsoft Trainer for over 25 years. He has been involved in presenting and helping other professionals better use and take advantage of Microsoft's data solutions.</p>
+    <p>Achieving his first Microsoft certification in 1996 as a Visual Basic 4.0 developer he was introduced to SQL Server 6.5 and 7.0 in 1998 and decided to focus his career on Microsoft's data platform. He has certified in every release of the SQL product ecosystem for the past 20 years.</p>
+    <p>RSVP: <A href="https://www.eventbrite.com/cc/2025-sql-saturday-in-orange-county-4246033">https://www.eventbrite.com/cc/2025-sql-saturday-in-orange-county-4246033</a></p>
+
+registrationurl: https://www.eventbrite.com/cc/2025-sql-saturday-in-orange-county-4246033
+capacity: 
+googlemapurl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.816655046872!2d-117.7341852252828!3d33.58410934230572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dce8a92b0d5e73%3A0xd30b83403963ddbe!2s20%20Enterprise%2C%20Aliso%20Viejo%2C%20CA%2092656%2C%20USA!5e0!3m2!1sen!2suk!4v1741640446367!5m2!1sen!2suk"
+scheduleurl: https://sessionize.com/api/v2/uq2q7dxn/view/GridSmart
+scheduletimezone: Pacific Daylight Savings time UTC -7
+
+eventcountdown: true
+
+countdownscript: |
+    <script src="https://cdn.logwork.com/widget/countdown.js"></script><a href="https://logwork.com/countdown-71sb" class="countdown-timer" data-timezone="America/Los_Angeles" data-date="2025-05-03 08:00">Countdown</a>
+ 
+speakertext: 
+speakerlisturl: https://sessionize.com/api/v2/uq2q7dxn/view/SpeakerWall
+callforspeakersurl: https://sessionize.com/2025-sql-saturday-orange-county
+callforspeakers:  true
+callforspeakersenddate: 21 Apr 2025
+
+organizers:
+  - name: Data Driven Technology Inc, 501.c.3 non-profit
+    twitter: sqlsatoc_
+    email: "sqlsatoc@datadriventechnologies.org"
+    url: https://linktr.ee/sqlsatoc
+
+volunteers:
+  description: "<center>Volunteers are very important to a successful event. Please use the link below to volunteer.</center>"
+  volunteerurl: "https://datadriventechnologies.org/2025/03/08/2025-sql-saturday-orange-county-call-for-volunteers/ "
+
+social:
+  twitter: sqlsatoc_
+  youtube: 
+  linkedin: "https://www.linkedin.com/company/sqlsatoc/"
+  instagram: sqlsatoc
+  tiktok: 
+  pinterest: 
+
+sponsorscontacturl: https://datadriventechnologies.org/2025/03/08/2025-sql-saturday-orange-county-call-for-sponsors/ 
+optInGlobalSponsor: 1
+sponsors:
+  - link: https://www.quest.com
+    type: Venue
+    image: /assets/img/logos/Quest-logo-800px.jpg
+    width: 800
+    height: 220
+  - link: https://www.databricks.com
+    type: Gold
+    image: /assets/img/logos/gold/databricks_gold.png
+    width: 676
+    height: 144
+  - link:  https://www.oreilly.com
+    type: ViK sponsorship
+    image: /assets/img/logos/oreilly-115x20.jpg
+    width: 115
+    height: 20
+
+join:
+
+sponsorplan: |
+  <p>You can see <a href="https://datadriventechnologies.org/2025/03/08/2025-sql-saturday-orange-county-call-for-sponsors/ ">the sponsor plans here</a>.

@@ -1,0 +1,71 @@
+name: "SQL Saturday Costa Rica 2024"
+primarytag: "San Pedro"
+logo: 
+logocredit: 
+date: 2024-08-10 09:00:00 -0600
+virtual: false
+physical: true
+hybrid: false
+description: |
+    <p>¡No te pierdas el evento SQL Saturday Costa Rica! Únete a nosotros en la Universidad latina de Costa Rica para un día lleno de aprendizaje y networking. Este evento en persona se llevará a cabo en San Pedro, Costa Rica.Ven y disfruta de presentaciones de expertos en SQL, talleres interactivos y oportunidades para conectarte con profesionales de la industria. ¡Aprovecha esta oportunidad para mejorar tus habilidades y ampliar tu red de contactos en el mundo de SQL! ¡Regístrate ahora y asegura tu lugar en SQL Saturday Costa Rica 2024!</p>
+
+eventlocation: |
+  Universidad Latina,<br/>
+  Sede Principal en San Pedro
+eventlocationurl: https://www.ulatina.ac.cr/
+
+officialwebsite: 
+registrationurl: https://www.eventbrite.com/e/sql-saturday-cartago-costa-rica-tickets-760828708147
+capacity: 
+googlemapurl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.0121941568664!2d-84.04610332684359!3d9.93294197418884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e38954ac9dbf%3A0x117a348da84974e3!2sUniversidad%20Latina%20de%20Costa%20Rica!5e0!3m2!1sen!2sau!4v1714437552872!5m2!1sen!2sau"
+precons: false
+precondetail: 
+
+scheduleurl: https://sessionize.com/api/v2/vdebtpdb/view/GridSmart
+scheduletimezone: Central Standard time UTC -6
+lunchcost: 
+eventhotel: 
+
+eventcountdown: false
+
+countdownscript:
+ 
+speakertext: The call for speakers is open.
+speakerlisturl: https://sessionize.com/api/v2/vdebtpdb/view/SpeakerWall
+callforspeakersurl: https://sessionize.com/sql-saturday-costa-rica/
+callforspeakers: true
+callforspeakersenddate: 15 Jul 2024
+
+organizers:
+  - name: Kenneth Urena 
+    twitter: 
+    email: 
+    url: 
+  - name: Carlos Ulate
+    twitter: 
+    email: 
+    url: 
+
+volunteers:
+  description: "Volunteers are very important to a successful event. Please contact the organizer to volunteer."
+  volunteerurl:
+
+social:
+  twitter: 
+  youtube: 
+  linkedin: 
+  instagram: 
+  tiktok: 
+  pinterest: 
+  meetup: 
+
+sponsorscontacturl: 
+sponsors: 
+  - link: https://www.microsoft.com
+    type: Global
+    image: /assets/img/logos/Microsoft-logo_rgb_c-gray.png
+    width: 1264
+    height: 340
+
+sponsorplan: |
+  <p>Coming soon</p>
