@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "SQL Saturday Lima 2025 (#1126)"
+title: "Data Day Lima 2025 (#1126)"
 subtitle: ""
 tags: ["Lima", "Peru", "San Isidro", "physical", "2025", "South America"]
 thumb: /assets/img/logos/Just_icon_Color_small.png
