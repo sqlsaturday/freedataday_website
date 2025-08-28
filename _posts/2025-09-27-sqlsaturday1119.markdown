@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "SQL Saturday Boston 2025 (#1119)"
+title: "Data Day Boston 2025 (#1119)"
 subtitle: ""
 tags: ["Boston", "Massachusetts", "USA", "physical", "2025", "North America"]
 thumb: /assets/img/logos/Just_icon_Color_small.png

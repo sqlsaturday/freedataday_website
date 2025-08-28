@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "SQL Saturday Jacksonville 2026 (#1128)"
+title: "Data Day Jacksonville 2026 (#1128)"
 subtitle: ""
 tags: ["Jacksonville", "Florida", "USA", "physical", "2026", "North America"]
 thumb: /assets/img/logos/Just_icon_Color_small.png
