@@ -1,18 +1,18 @@
 ---
 layout: home
-title: "Free Data Day"
+title: "Day of Data"
 ---
-Welcome to the Free Data Day site, the evolution of Data Day. We help individuals run free data-related community events for database professionals and those working with data across any platform. We have these events listed:
-- <a href="#events">upcoming Data Day events</a>
-- <a href="#reserved">reserved dates for future Data Days</a>
-- <a href="#other">other non-Data Day events</a>
+Welcome to the Day of Data site, the evolution of SQL Saturday. We help individuals run free data-related community events for database professionals and those working with data across any platform. We have these events listed:
+- <a href="#events">upcoming Day of Data events</a>
+- <a href="#reserved">reserved dates for future Day of Data events</a>
+- <a href="#other">other non-Day of Data events</a>
 - <a href="https://sqlsaturday.com/feed.xml">an RSS feed of all events</a>
 
 If you want to know more about events from an organizer, speaker, sponsor, or attendee standpoint, sign up for our [mailing list](http://eepurl.com/hwVBKn)
 
 ## <a name="events"></a>Events
 
-These are the Data Day events that are currently scheduled. If you would like to organize or schedule an event, please visit our [running a new event](http://sqlsaturday.com/newevent/) page.
+These are the Day of Data events that are currently scheduled. If you would like to organize or schedule an event, please visit our [running a new event](http://sqlsaturday.com/newevent/) page.
 
 <table cellspacing=0 class="table table-hover table-borderless table-sortable mt-3" width="100%">
   <thead>
@@ -61,7 +61,7 @@ The following dates are tentative for these cities, but they have asked to reser
 - Mar 21, 2026 - Atlanta - AI & BI
 - April 17-18, 2026 - SeaQL 2026 Ouddorp (NL)
 - May 2, 2026 - Jacksonville 2026
-- Tech Community Day / Data Day Guatamala 2025 - TBD
+- Tech Community Day / Day of Data Guatamala 2025 - TBD
 
 Please contact the local organizers for these areas if you have questions or concerns.
 
