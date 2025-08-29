@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Data Day Pittsburgh 2025 (#1123)"
+title: "Day of Data Pittsburgh 2025 (#1123)"
 subtitle: ""
 tags: ["Pittsburgh", "Pennsylvania", "USA", "physical", "2025", "North America"]
 thumb: /assets/img/logos/Just_icon_Color_small.png

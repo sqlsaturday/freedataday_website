@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Data Day Vitória 2025 (#1129)"
+title: "Day of Data Vitória 2025 (#1129)"
 subtitle: ""
 tags: ["Vitória", "Brazil", "physical", "2025", "South America"]
 thumb: /assets/img/logos/Just_icon_Color_small.png
