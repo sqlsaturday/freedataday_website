@@ -9,7 +9,7 @@ future: true
 incremental: true
 
 # Name of website
-title: Free Data Day
+title: Data of Data
 
 # Your name to show in the footer
 author: The SQL Saturday Corporation
@@ -26,7 +26,7 @@ navbar-links:
     - Site documentation: "/documentation/"
   SQLSat Inc: "https://blog.sqlsaturday.com/"
   About: 
-    - About Free Data Day : "about"
+    - About Day of Data: "about"
     - Contact Us: "contact"
     - Privacy: "data"
 
